@@ -3,9 +3,9 @@ node_modules
 npm-debug.log
 Gemfile.lock
 
-css/*.css*
+#css/*.css*
 
-js/*.js*
+#js/*.js*
 
 
 !.gitkeep
