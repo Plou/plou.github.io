@@ -1,0 +1,21 @@
+////
+/// Fonts
+///
+/// @group Settings
+///
+////
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:500,600|Montserrat');
+
+/// Font fomily
+$cormorant: 'Cormorant Garamond', serif;
+$montserrat: 'Montserrat', Arial, sans-serif;
+
+$font-heading: $montserrat;
+$font-text: $cormorant;
+
+/// Fonts weight
+/// They must reflect avalaible weights
+$fw-light: 300;
+$fw-regular: 400;
+$fw-semibold: 500;
+$fw-bold: 700;

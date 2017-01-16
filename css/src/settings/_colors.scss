@@ -1,0 +1,30 @@
+////
+/// Colors
+///
+/// @group Settings
+///
+////
+
+/// Grey scale
+$white: #fcfdfc;
+
+$grey-dark: #353333;
+$black: #232222;
+
+// Transparent grey scale
+$black-50: rgba($black, .5);
+
+/// Utility colors
+$red: #d9534f;
+$green: #5cb85c;
+
+/// Branding colors
+$orange: #fbab61;
+
+$color-main: $orange;
+
+/// Functionnal colors
+$color-text: $black;
+$color-link: $color-main;
+$color-error: $red;
+$color-valid: $green;
