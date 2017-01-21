@@ -3,11 +3,8 @@
 // Website wide scripts
 // @Author Dummy Team
 
-$( () => {
+import Tile from './components/Tile.js'
+import animationsUi from './components/tiles/animationsUi.js'
 
-  $(window).ready( () => {
 
-    console.log('Hi there!')
-
-  })
-})
+new Tile('ui', animationsUi)
