@@ -20,7 +20,7 @@
           <rect id="Rectangle-4-Copy-2" fill="#262642" x="0" y="29" width="77" height="6"></rect>
       </g>
       <rect id="darken" fill-opacity="0.5" fill="#262626" fill-rule="evenodd" x="0" y="0" width="275" height="275" style="pointer-events:none;"></rect>
-      <polygon id="title-bg" fill-opacity="0.5" fill="#262626" fill-rule="evenodd" points="0 210 275 210 275 275 0 275"></polygon>
+      <rect id="title-bg" fill-opacity="0.6" fill="#135757" x="0" y="180" width="275" height="95"></rect>
       <text id="title" font-family="Montserrat-Regular, Montserrat" font-size="30" font-weight="bold" fill="#FCFCFC">
           <tspan x="20" y="218"></tspan>
           <tspan x="20" y="255">UI Systems</tspan>

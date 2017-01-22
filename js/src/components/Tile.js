@@ -9,6 +9,7 @@ export default class Tile {
     Snap.load(`/img/tiles/${name}.svg`, (svg) => {
       this.container.append(svg.select(`#${name}`))
       this.on('click')
+      this.animate()
     })
   }
 

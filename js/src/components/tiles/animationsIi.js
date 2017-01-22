@@ -1,29 +1,29 @@
 const resetT = 't0 t0 r0 s1 1'
 
 export default [
-  { element: "#rect-teal",
+  { element: "#orange",
     from: resetT,
-    to: "t117 -65 r90 36 107 s1 1.1 -107 -36",
+    to: "t-45 16 s1 1 137.5 0",
     property: 'transform'
   },
-  { element: "#rect-orange",
+  { element: "#red",
     from: resetT,
-    to: "t-10 -10",
+    to: "t47 -50 s.42",
     property: 'transform'
   },
-  { element: "#rect-red",
+  { element: "#wheat",
     from: resetT,
-    to: "t-39 63",
+    to: "t50 -64 s.85",
     property: 'transform'
   },
-  { element: "#lines-black",
-    from: "t38 185",
-    to: "t38 155",
+  { element: "#lines",
+    from: resetT,
+    to: "t146 85 s.94",
     property: 'transform'
   },
-  { element: "#tri-wheat",
-    from: resetT,
-    to: "t85 84 s2.4 2.4",
+  { element: "#black",
+    from: "t0 0",
+    to: "t125 120 s.5",
     property: 'transform'
   },
   { element: "#darken",

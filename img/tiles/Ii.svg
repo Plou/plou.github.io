@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg id="ii" width="275px" height="275px" viewBox="0 0 275 275" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+    </defs>
+    <g id="Interactive-interfaces" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+          <rect id="path-1" x="0" y="0" width="275" height="275"></rect>
+        </mask>
+        <g id="Group" mask="url(#mask-2)">
+            <polygon id="mask" fill="#29BCBD" points="275 0 0 0 0 275 275 275"></polygon>
+            <polygon id="orange" fill="#F6902B" points="77 0 289 0 289 121.5 77 121.5"></polygon>
+            <polygon id="red" fill="#E34425" points="51 61 224 61 224 149 51 149"></polygon>
+            <rect id="wheat" fill="#D8D8D8" x="0" y="101" width="80" height="80"></rect>
+            <g id="lines" transform="translate(13.000000, 19.000000)" fill="#262642">
+                <rect id="Rectangle-4" x="0" y="0" width="77" height="6"></rect>
+                <rect id="Rectangle-4-Copy" x="0" y="15" width="77" height="6"></rect>
+                <rect id="Rectangle-4-Copy-2" x="0" y="29" width="77" height="6"></rect>
+            </g>
+            <polyline id="black" fill="#262642" points="0 0 77 0 0 73"></polyline>
+            <rect id="darken" fill-opacity="0.6" fill="#135757" x="0" y="0" width="275" height="275"></rect>
+            <rect id="title-bg" fill-opacity="0.6" fill="#135757" x="0" y="180" width="275" height="95"></rect>
+            <text id="title" font-family="Montserrat-Regular, Montserrat" font-size="30" font-weight="normal" fill="#FCFCFC">
+                <tspan x="20" y="218">Interactive </tspan>
+                <tspan x="20" y="255">Interfaces</tspan>
+            </text>
+            <image id="background" opacity="0.6" style="mix-blend-mode: hard-light;" x="0" y="0" width="275" height="275" xlink:href="/img/mask.jpg"></image>
+        </g>
+    </g>
+</svg>
