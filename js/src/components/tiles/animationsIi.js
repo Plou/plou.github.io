@@ -23,7 +23,7 @@ export default [
   },
   { element: "#black",
     from: "t0 0",
-    to: "t125 120 s.5",
+    to: "t125 119 s.5",
     property: 'transform'
   },
   { element: "#darken",

@@ -21,7 +21,7 @@
       </g>
       <rect id="darken" fill-opacity="0.5" fill="#262626" fill-rule="evenodd" x="0" y="0" width="275" height="275" style="pointer-events:none;"></rect>
       <rect id="title-bg" fill-opacity="0.6" fill="#135757" x="0" y="180" width="275" height="95"></rect>
-      <text id="title" font-family="Montserrat-Regular, Montserrat" font-size="30" font-weight="bold" fill="#FCFCFC">
+      <text id="title" font-family="Montserrat-Regular, Montserrat" font-size="30" font-weight="normal" fill="#FCFCFC">
           <tspan x="20" y="218"></tspan>
           <tspan x="20" y="255">UI Systems</tspan>
       </text>
