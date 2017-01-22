@@ -39,7 +39,7 @@ gulp.task('scss', function(){
 })
 
 gulp.task('js', () => {
-  browserify('./js/src/main.js')
+  return browserify('./js/src/main.js')
     .transform(babelify.configure({ presets: [es2015] }))
     .bundle()
     .on('error', gutil.log)
@@ -56,7 +56,7 @@ gulp.task('serve', function() {
 
     browserSync.init({
         server: "./",
-        open: false,
+        open: false
     })
 
     gulp.watch("css/src/**/*.scss", ['scss'])
@@ -65,5 +65,5 @@ gulp.task('serve', function() {
     gulp.watch('img/**/*').on('change', browserSync.reload)
 })
 
-gulp.task('default', [ 'build', 'serve' ])
+gulp.task('default', [ 'serve', 'build' ])
 gulp.task('build', [ 'pug', 'scss', 'js' ])

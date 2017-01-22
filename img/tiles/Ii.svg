@@ -25,7 +25,7 @@
                 <tspan x="20" y="218">Interactive </tspan>
                 <tspan x="20" y="255">Interfaces</tspan>
             </text>
-            <image id="background" opacity="0.6" style="mix-blend-mode: hard-light;" x="0" y="0" width="275" height="275" transform-origin="137.5 137.5" transform="rotate(180)" xlink:href="/img/mask.jpg"></image>
+            <image id="background" opacity="0.6" style="mix-blend-mode: hard-light; transform: rotate(180deg)" x="0" y="0" width="275" height="275" transform-origin="137.5 137.5" xlink:href="/img/mask.jpg"></image>
         </g>
     </g>
 </svg>

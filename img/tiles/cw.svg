@@ -23,7 +23,7 @@
           <tspan x="20" y="218">Courses</tspan>
           <tspan x="20" y="255">Workshop</tspan>
       </text>
-      <image id="mask" fill="none" opacity="0.8" style="pointer-events:none; mix-blend-mode: hard-light;"  transform-origin="137.5 137.5" transform="rotate(90)" x="0" y="0" width="275" height="275" xlink:href="/img/mask.jpg"></image>
+      <image id="mask" fill="none" opacity="0.8" style="pointer-events:none; mix-blend-mode: hard-light; transform: rotate(90deg)"  transform-origin="137.5 137.5" x="0" y="0" width="275" height="275" xlink:href="/img/mask.jpg"></image>
 
     </g>
   </g>
