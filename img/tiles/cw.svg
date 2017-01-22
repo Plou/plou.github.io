@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="cw" width="275px" height="275px" viewBox="0 0 275 275" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="cursor: pointer;">
+  <desc>UI Systems</desc>
+    <g id="course-workshop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" pointer-events="none">
+      <mask id="mask-2" fill="white">
+        <polygon id="path-1" points="275 0 0 0 0 275 275 275"></polygon>
+      </mask>
+      <use id="background" fill="#F6902B" xlink:href="#path-1"></use>
+      <polygon id="teal" fill="#29BCBD" mask="url(#mask-2)" points="80 80 255 80 255 190 80 190"></polygon>
+      <polygon id="black" fill="#262642" mask="url(#mask-2)" points="52 17 220 17 220 109 52 109"></polygon>
+      <g id="lines" mask="url(#mask-2)" fill="#F26C21">
+          <g transform="translate(100, 130)">
+              <rect id="Rectangle-4" x="0" y="0" width="77" height="6"></rect>
+              <rect id="Rectangle-4-Copy" x="0" y="15" width="77" height="6"></rect>
+              <rect id="Rectangle-4-Copy-2" x="0" y="30" width="77" height="6"></rect>
+          </g>
+      </g>
+      <rect id="wheat" fill="#D8D8D8" mask="url(#mask-2)" x="155" y="28" width="52" height="52"></rect>
+      <polyline id="red" fill="#E34425" mask="url(#mask-2)" points="-6 183 -57 132 45 132"></polyline>
+      <polygon id="darken" points="275 0 0 0 0 275 275 275" fill-opacity="0.6" fill="#7F4A15"></polygon>
+      <polygon id="title-bg" fill-opacity="0.6" fill="#7F4A15" points="275 180 0 180 0 275 275 275"></polygon>
+      <text id="title" font-family="Montserrat-Regular, Montserrat" font-size="30" font-weight="bold" fill="#FCFCFC">
+          <tspan x="20" y="218">Courses</tspan>
+          <tspan x="20" y="255">Workshop</tspan>
+      </text>
+      <image id="mask" fill="none" opacity="0.8" style="pointer-events:none; mix-blend-mode: hard-light;"  transform-origin="137.5 137.5" transform="rotate(90)" x="0" y="0" width="275" height="275" xlink:href="/img/mask.jpg"></image>
+
+    </g>
+  </g>
+</svg>

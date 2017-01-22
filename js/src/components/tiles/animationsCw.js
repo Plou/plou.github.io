@@ -1,29 +1,29 @@
-const resetT = 't0 t0 r0 s1 1'
+const resetT = ''
 
 export default [
-  { element: "#rect-teal",
+  { element: "#red",
     from: resetT,
-    to: "t112 -25 s.942 .8 -107 -36 r90",
+    to: 't187 -85 r90 s1.7',
     property: 'transform'
   },
-  { element: "#rect-orange",
+  { element: "#teal",
     from: resetT,
-    to: "t-10 -10",
+    to: 't-92 -2 s.5 .57 r-90',
     property: 'transform'
   },
-  { element: "#rect-red",
+  { element: "#wheat",
     from: resetT,
-    to: "t-39 63",
+    to: 't-105 -10 s1.1 1',
     property: 'transform'
   },
-  { element: "#lines-black",
-    from: "t38 185",
-    to: "t38 155",
+  { element: "#lines",
+    from: "t95 150",
+    to: 't47 -95',
     property: 'transform'
   },
-  { element: "#tri-wheat",
+  { element: "#black",
     from: resetT,
-    to: "t85 84 s2.4 2.4",
+    to: 't50 38 s1.15 .95 r-90',
     property: 'transform'
   },
   { element: "#darken",
@@ -33,12 +33,12 @@ export default [
   },
   { element: "#title-bg",
     from: "t0 0",
-    to: "t0 95",
-    property: 'transform'
+    to: 't0 95',
+    property: "transform",
   },
   { element: "#title",
     from: "#FCFCFC",
-    to: "#232222",
+    to: "#000",
     property: 'fill'
   }
 ]

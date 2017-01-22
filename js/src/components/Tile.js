@@ -4,12 +4,15 @@ export default class Tile {
   constructor (name, animations) {
     this.animations = animations
     this.state = false
+    this.duration = {
+      reset: 300,
+      to: 300
+    }
     this.container = Snap(`#tile-${name}`)
-
     Snap.load(`/img/tiles/${name}.svg`, (svg) => {
       this.container.append(svg.select(`#${name}`))
-      this.on('click')
-      this.animate()
+      this.bind()
+      // this.animate()
     })
   }
 
@@ -18,7 +21,7 @@ export default class Tile {
     this.animations.forEach((animation) => {
       const anim = {}
       anim[animation.property] = animation.to
-      this.container.select(animation.element).animate(anim, 200, mina.easeOutQuad, callback)
+      this.container.select(animation.element).animate(anim, this.duration.to, mina.easeOutQuad, callback)
     })
   }
 
@@ -27,12 +30,12 @@ export default class Tile {
     this.animations.forEach((animation) => {
       const anim = {}
       anim[animation.property] = animation.from
-      this.container.select(animation.element).animate(anim, 200, mina.easeOutQuad, callback)
+      this.container.select(animation.element).animate(anim, this.duration.reset, mina.easeOutQuad, callback)
     })
   }
 
-  on (event) {
-    this.container[event](() => {
+  bind () {
+    this.container.click(() => {
       if (this.state) {
         this.reset()
       }
@@ -40,5 +43,11 @@ export default class Tile {
         this.animate()
       }
     })
+
+    this.container.hover(() => this.animate(), () =>
+    setTimeout(() =>{
+      this.reset()
+    }, 400)
+   )
   }
 }

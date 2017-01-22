@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="wt" width="275px" height="275px" viewBox="0 0 275 275" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="cursor: pointer;">
+  <desc>Wordpress, Typo3</desc>
+  <defs>
+  </defs>
+  <g id="wordpress-typo3t" pointer-events="none" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <mask id="mask-2" fill="white">
+      <rect id="path-1" x="0" y="0" width="275" height="275"></rect>
+    </mask>
+    <g id="Group" mask="url(#mask-2)">
+      <polygon id="background" fill="#E34425" points="275 0 0 0 0 275 275 275"></polygon>
+      <polygon id="orange" fill="#F6902B" points="245 -60 245 172 216 172 216 -60"></polygon>
+      <rect id="wheat" fill="#D8D8D8" x="22" y="29" width="148" height="79"></rect>
+      <polygon id="teal" fill="#29BCBD" points="113 103 198 103 198 148 113 148"></polygon>
+      <polygon id="black" fill="#262642" points="257 180 149 180 257 81"></polygon>
+      <g id="lines" transform="translate(180, 140)" fill="#F26C21">
+          <rect id="Rectangle-4" x="0" y="17" width="70" height="2"></rect>
+          <rect id="Rectangle-4-Copy" x="0" y="23" width="70" height="2"></rect>
+          <rect id="Rectangle-4-Copy-2" x="0" y="29" width="70" height="2"></rect>
+          <rect id="Rectangle-4" x="30" y="0" width="40" height="2"></rect>
+          <rect id="Rectangle-4-Copy" x="30" y="6" width="40" height="2"></rect>
+          <rect id="Rectangle-4-Copy-2" x="30" y="11" width="40" height="2"></rect>
+      </g>
+      <rect id="darken" fill-opacity="0.8" fill="#972D18" x="0" y="0" width="275" height="275"></rect>
+      <rect id="title-bg" fill-opacity="0.8" fill="#972D18" x="0" y="180" width="275" height="95"></rect>
+      <text id="title" font-family="Montserrat-Regular, Montserrat" font-size="30" font-weight="normal" fill="#FCFCFC">
+          <tspan x="20" y="218">Wordpress</tspan>
+          <tspan x="20" y="255">Typo3</tspan>
+      </text>
+      <image id="mask" fill="none" opacity="0.5" style="pointer-events:none; mix-blend-mode: hard-light;" x="0" y="0" width="275" height="275" xlink:href="/img/mask.jpg"></image>
+
+    </g>
+  </g>
+</svg>
