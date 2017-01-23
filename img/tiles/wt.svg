@@ -27,7 +27,7 @@
           <tspan x="20" y="218">Wordpress</tspan>
           <tspan x="20" y="255">Typo3</tspan>
       </text>
-      <image id="mask" fill="none" opacity="0.5" style="pointer-events:none; mix-blend-mode: hard-light;" x="0" y="0" width="275" height="275" xlink:href="/img/mask.jpg"></image>
+      <image id="mask" fill="none" opacity="0.5" style="pointer-events:none; mix-blend-mode: hard-light;" x="0" y="0" width="275" height="275" xlink:href="/img/mask.png"></image>
 
     </g>
   </g>

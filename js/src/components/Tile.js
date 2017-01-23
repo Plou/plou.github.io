@@ -44,10 +44,10 @@ export default class Tile {
       }
     })
   // !Causes bug on ios
-  //   this.container.hover(() => this.animate(), () =>
-  //   setTimeout(() =>{
-  //     this.reset()
-  //   }, 400)
-  //  )
+    this.container.hover(() => this.animate(), () =>
+    setTimeout(() =>{
+      this.reset()
+    }, 400)
+   )
   }
 }
