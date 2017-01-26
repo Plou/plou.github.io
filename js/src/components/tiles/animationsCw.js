@@ -31,6 +31,11 @@ export default [
     to: 0,
     property: 'opacity'
   },
+  { element: "#mask",
+    from: 0.8,
+    to: 0.6,
+    property: 'opacity'
+  },
   { element: "#title-bg",
     from: "t0 0",
     to: 't0 95',

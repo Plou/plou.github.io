@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="104px" height="104px" viewBox="0 0 104 104" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="/" transform="translate(-108.000000, -3299.000000)" fill="#FCFBFC">
+            <g id="Sidebar" transform="translate(0.000000, 1.000000)">
+                <g id="footer" transform="translate(73.000000, 3298.000000)">
+                    <path d="M87,86.7083727 C67.8310638,86.7083727 52.2916273,71.1689362 52.2916273,52 C52.2916273,32.8310638 67.8310638,17.2913577 87,17.2913577 C106.168397,17.2913577 121.708373,32.8310638 121.708373,52 C121.708373,71.1689362 106.168397,86.7083727 87,86.7083727 M87,0 C58.2813806,0 35,23.281111 35,52 C35,80.7180801 58.2813806,104 87,104 C115.718619,104 139,80.7180801 139,52 C139,23.281111 115.718619,0 87,0" id="logo"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

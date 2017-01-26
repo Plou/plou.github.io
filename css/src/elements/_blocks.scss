@@ -5,15 +5,25 @@
 ///
 ////
 
+section {
+  margin: 50px 0;
+
+  &:first-child {
+    margin-top: 0;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
 /// Contents
-p, li, td, th, textarea, caption, pre, blockquote, label, input, select, textarea { font-size: 2.4em; line-height: 1.4; }
+p, li, td, th, textarea, caption, pre, blockquote, label, input, select, textarea { font-size: 2.6em; line-height: 1.4; }
 td p, td .bodytext { margin: 0; }
 strong, optgroup { font-weight: $fw-bold; }
 
 p {
-  margin: 15px 0;
-
-  h1 + & { margin-top: -15px;  margin-bottom: 60px; }
+  margin: 25px 0;
 }
 
 li { margin: 5px 0; }

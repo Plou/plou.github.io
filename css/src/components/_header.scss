@@ -1,0 +1,47 @@
+.header {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 340px;
+  padding: 30px;
+  background-color: $black;
+  color: $white;
+
+  a { color: $white; }
+
+  &-logo {
+    margin-bottom: 10px;
+    font-weight: $fw-regular;
+
+    & + p {
+      margin: 0;
+      line-height: 1.2;
+    }
+  }
+  .sub-heading {
+    margin: 15px 0;
+    font-size: 1.6em;
+    font-family: $font-heading;
+  }
+
+  .footer {
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    left: 30px;
+
+    &-logo {
+      display: block;
+      margin: auto;
+      margin-bottom: 40px;
+    }
+    &-contact {
+      list-style: none;
+      &-item {
+        font-family: $font-heading;
+        font-size: 1.6em;
+      }
+    }
+  }
+}

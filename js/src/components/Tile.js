@@ -6,7 +6,7 @@ export default class Tile {
     this.state = false
     this.duration = {
       reset: 300,
-      to: 300
+      to: 200
     }
     this.container = Snap(`#tile-${name}`)
     Snap.load(`/img/tiles/${name}.svg`, (svg) => {
@@ -21,7 +21,7 @@ export default class Tile {
     this.animations.forEach((animation) => {
       const anim = {}
       anim[animation.property] = animation.to
-      this.container.select(animation.element).animate(anim, this.duration.to, mina.easeOutQuad, callback)
+      this.container.select(animation.element).animate(anim, this.duration.to, mina.easeOutQuint, callback)
     })
   }
 
@@ -30,7 +30,7 @@ export default class Tile {
     this.animations.forEach((animation) => {
       const anim = {}
       anim[animation.property] = animation.from
-      this.container.select(animation.element).animate(anim, this.duration.reset, mina.easeOutQuad, callback)
+      this.container.select(animation.element).animate(anim, this.duration.reset, mina.easeInQuint, callback)
     })
   }
 

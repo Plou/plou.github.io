@@ -10,6 +10,7 @@
         </mask>
         <g id="Group" mask="url(#mask-2)">
             <polygon id="mask" fill="#29BCBD" points="275 0 0 0 0 275 275 275"></polygon>
+            <polyline id="black" fill="#262642" points="0 0 77 0 0 73"></polyline>
             <polygon id="orange" fill="#F6902B" points="77 0 289 0 289 121.5 77 121.5"></polygon>
             <polygon id="red" fill="#E34425" points="51 61 224 61 224 149 51 149"></polygon>
             <rect id="wheat" fill="#D8D8D8" x="0" y="101" width="80" height="80"></rect>
@@ -18,7 +19,6 @@
                 <rect id="Rectangle-4-Copy" x="0" y="15" width="77" height="6"></rect>
                 <rect id="Rectangle-4-Copy-2" x="0" y="29" width="77" height="6"></rect>
             </g>
-            <polyline id="black" fill="#262642" points="0 0 77 0 0 73"></polyline>
             <rect id="darken" fill-opacity="0.6" fill="#135757" x="0" y="0" width="275" height="275"></rect>
             <rect id="title-bg" fill-opacity="0.6" fill="#135757" x="0" y="180" width="275" height="95"></rect>
             <text id="title" font-family="Montserrat-Regular, Montserrat" font-size="30" font-weight="normal" fill="#FCFCFC">
