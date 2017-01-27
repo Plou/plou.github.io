@@ -1,7 +1,8 @@
 doctype html
 html
   head
-    title Plou
+    title Plou - Front-end developer
+    meta(description="Clément Plou, freelance front-end developer & teacher")
     meta(charset="utf-8")
     meta(http-equiv="Content-Type", content="text/html; charset=utf-8")
 
@@ -15,6 +16,24 @@ html
     block preload
 
   body
-    block content
+    header.header
+      h1.header-logo plou
+      p.header-title Front-end developper<br>Teacher
+      p.header-subtitle Based in Lille, France<br> I'm available to work anywhere.
+
+    .content
+      block content
+
+    footer.footer
+      img.footer-logo(src="/img/logo.svg")
+      ul.footer-contact
+        li.footer-contact-item.link-medium
+          a(href="https://medium.com/@Plou", target="_blank") medium.com/@Plou
+        li.footer-contact-item.link-twitter
+          a(href="https://twitter.com/devPlou", target="_blank") twitter.com/devPlou
+        li.footer-contact-item.link-github
+          a(href="https://github.com/Plou", target="_blank") github.com/Plou
+        li.footer-contact-item.link-mail
+          a(href="mailto:clement@plou.io") clement@plou.io
 
     script(src='/js/main.js')

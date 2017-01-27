@@ -5,18 +5,17 @@
 ///
 ////
 
-@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:500,600|Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Abhaya+Libre:400,600|Montserrat:400,700');
 
 /// Font family
-$cormorant: 'Cormorant Garamond', serif;
+$abhaya: 'Abhaya Libre', serif;
 $montserrat: 'Montserrat', Arial, sans-serif;
 
 $font-heading: $montserrat;
-$font-text: $cormorant;
+$font-text: $abhaya;
 
 /// Fonts weight
 /// They must reflect avalaible weights
-$fw-light: 300;
 $fw-regular: 400;
-$fw-semibold: 500;
+$fw-semibold: 600;
 $fw-bold: 700;

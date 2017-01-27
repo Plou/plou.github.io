@@ -1,0 +1,35 @@
+.footer {
+  padding: 30px;
+  text-align: center;
+
+  a { color: $white; }
+
+  &-logo {
+    display: block;
+    margin: auto;
+    margin-bottom: 40px;
+    width: 84px;
+    @media #{$media-large} {
+      width: 104px;
+    }
+  }
+
+  &-contact {
+    display: inline-block;
+    padding: 0;
+    list-style: none;
+    text-align: left;
+
+    &-item {
+      font-family: $font-heading;
+      font-size: 1.6em;
+      @media #{$media-medium} {
+        font-size: 1.4em;
+      }
+      @media #{$media-large} {
+        font-size: 1.6em;
+      }
+    }
+  }
+
+}

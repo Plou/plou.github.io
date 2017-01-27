@@ -1,10 +1,23 @@
 .content {
-  margin-left: 340px;
-  padding: 70px 0;
   background-color: $white;
+  padding: 70px 0;
+  text-align: justify;
+
+  @media #{$media-medium} {
+    text-align: left;
+  }
 
   &-text {
-    padding-left: 100px;
-    padding-right: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    @media #{$media-medium} {
+      padding-left: 50px;
+      padding-right: 30px;
+    }
+    @media #{$media-large} {
+      padding-left: 100px;
+      padding-right: 70px;
+    }
   }
 }
