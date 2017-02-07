@@ -4,22 +4,21 @@
   color: $white;
 
   @media #{$media-medium} {
-    padding: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
   @media #{$media-large} {
-    padding: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 
   a { color: $white; }
 
   &-logo {
-    margin-bottom: 10px;
+    margin-bottom: 35px;
     font-size: 4.5em;
     font-weight: $fw-regular;
 
-    @media #{$media-medium} {
-      font-size: 4em;
-    }
     @media #{$media-large} {
       font-size: 4.5em;
     }
