@@ -21,7 +21,7 @@
       <polygon id="title-bg" fill-opacity="0.6" fill="#7F4A15" points="275 180 0 180 0 275 275 275"></polygon>
       <text id="title" font-family="Montserrat-Regular, Montserrat" font-size="30" font-weight="normal" fill="#FCFCFC">
           <tspan x="20" y="218">Courses</tspan>
-          <tspan x="20" y="255">Workshop</tspan>
+          <tspan x="20" y="255">Workshops</tspan>
       </text>
       <image id="mask" fill="none" opacity="0.8" style="pointer-events:none; mix-blend-mode: hard-light; transform: rotate(90deg)"  transform-origin="137.5 137.5" x="0" y="0" width="275" height="275" xlink:href="/img/mask.png"></image>
 
