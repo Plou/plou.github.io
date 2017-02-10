@@ -9,6 +9,7 @@ export default class Tile {
       to: 200
     }
     this.container = Snap(`#tile-${name}`)
+    this.parent = document.querySelector(`#tile-${name}`).parentElement
     Snap.load(`/img/tiles/${name}.svg`, (svg) => {
       this.container.append(svg.select(`#${name}`))
       this.bind()
@@ -35,19 +36,21 @@ export default class Tile {
   }
 
   bind () {
-    this.container.click(() => {
-      if (this.state) {
-        this.reset()
-      }
-      else {
-        this.animate()
-      }
-    })
+    // this.container.click(() => {
+    //   if (this.state) {
+    //     this.reset()
+    //   }
+    //   else {
+    //     this.animate()
+    //   }
+    // })
+
   // !Causes bug on ios
-  //   this.container.hover(() => this.animate(), () =>
-  //   setTimeout(() =>{
-  //     this.reset()
-  //   }, 400)
-  //  )
+    this.parent.addEventListener('mouseenter', () => this.animate())
+    this.parent.addEventListener('mouseleave', () => {
+      setTimeout(() =>{
+        this.reset()
+      }, 400)
+    })    
   }
 }

@@ -1,17 +1,40 @@
 .skill-list {
-  .skill-list-item {
+  &-item {
+    position: relative;
     display: block;
     margin: 0;
     height: auto;
     cursor: pointer;
     width: 100%;
+    padding-top: 100%;
 
-    @media #{$media-small} {
+    @media screen and (min-width: 550px){
       display: inline-block;
       width: 1 / 2 *100%;
+      padding-top: 1 / 2 *100%;
     }
     @media #{$media-large} {
       width: 1 / 4 *100%;
+      padding-top: 1 / 4 *100%;
+    }
+
+  }
+
+  &-svg {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    [id="title"] {
+      opacity: 1;
+      transition: 300ms opacity ease-in;
+    }
+    .has-modal & [id="title"] {
+      opacity: 0;
     }
   }
+
 }

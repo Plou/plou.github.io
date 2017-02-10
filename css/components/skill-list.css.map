@@ -1,1 +1,0 @@
-{"version":3,"sources":["components/skill-list.scss"],"names":[],"mappings":"AAAA,4B,CAEI,Q,CACA,c","file":"skill-list.css","sourcesContent":[".skill-list {\n  .skill-list-item {\n    margin: 0;\n    cursor: pointer;\n  }\n}\n"]}
