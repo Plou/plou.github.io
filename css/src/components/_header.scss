@@ -16,14 +16,11 @@
 
   &-logo {
     margin-bottom: 50px;
-    font-size: 4.5em;
+    font-size: 5em;
     font-weight: $fw-regular;
 
     @media #{$media-medium} {
       margin-bottom: 55px;
-    }
-    @media #{$media-large} {
-      font-size: 4.5em;
     }
 
     & + p {

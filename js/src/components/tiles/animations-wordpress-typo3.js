@@ -1,6 +1,6 @@
-const resetT = 't0 t0 r0 s1 1'
+const resetT = ''
 
-export const text = [
+export const onClick = [
   { element: "#text",
     from: resetT,
     to: "t0 -170",
@@ -18,30 +18,30 @@ export const text = [
   },
 ]
 
-export const animation = [
+export const onMouseEnter = [
   { element: "#orange",
     from: resetT,
-    to: "t-45 16 s1 1 137.5 0",
+    to: "t-90 -25 r90",
     property: 'transform'
   },
-  { element: "#red",
+  { element: "#teal",
     from: resetT,
-    to: "t47 -50 s.42",
+    to: "t-70 -28 s.75",
     property: 'transform'
   },
   { element: "#wheat",
     from: resetT,
-    to: "t50 -64 s.85",
+    to: "t45 50 s1.34",
     property: 'transform'
   },
   { element: "#lines",
-    from: resetT,
-    to: "t146 85 s.94",
+    from: "t180 140 s1",
+    to: "t105 105 s2.5",
     property: 'transform'
   },
   { element: "#black",
-    from: "t0 0",
-    to: "t125 119 s.5",
+    from: resetT,
+    to: "t-155 -75 s.6 r-180",
     property: 'transform'
   },
   { element: "#darken",
@@ -52,11 +52,11 @@ export const animation = [
   { element: "#title-bg",
     from: "t0 0",
     to: "t0 95",
-    property: 'transform'
+    property: "transform",
   },
   { element: "#text",
     from: "#FCFCFC",
-    to: "#232222",
+    to: "#000",
     property: 'fill'
   }
 ]

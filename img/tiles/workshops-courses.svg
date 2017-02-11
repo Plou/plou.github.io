@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg id="cw" width="275px" height="275px" viewBox="0 0 275 275" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="cursor: pointer;">
-  <desc>UI Systems</desc>
-    <g id="course-workshop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" pointer-events="none">
+  <desc>Workshops, courses</desc>
+    <g id="svg-workshops-courses" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" pointer-events="none">
       <mask id="mask-2" fill="white">
         <polygon id="path-1" points="275 0 0 0 0 275 275 275"></polygon>
       </mask>

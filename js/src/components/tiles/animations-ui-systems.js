@@ -1,9 +1,9 @@
-const resetT = ''
+const resetT = 't0 t0 r0 s1 1'
 
-export const text = [
+export const onClick = [
   { element: "#text",
     from: resetT,
-    to: "t0 -170",
+    to: "t0 -207",
     property: 'transform'
   },
   { element: "#text",
@@ -18,30 +18,30 @@ export const text = [
   },
 ]
 
-export const animation = [
-  { element: "#red",
+export const onMouseEnter = [
+  { element: "#rect-teal",
     from: resetT,
-    to: 't187 -85 r90 s1.7',
+    to: "t112 -25 s.942 .8 -107 -36 r90",
     property: 'transform'
   },
-  { element: "#teal",
+  { element: "#rect-orange",
     from: resetT,
-    to: 't-92 -2 s.5 .57 r-90',
+    to: "t-10 -10",
     property: 'transform'
   },
-  { element: "#wheat",
+  { element: "#rect-red",
     from: resetT,
-    to: 't-105 -10 s1.1 1',
+    to: "t-39 63",
     property: 'transform'
   },
-  { element: "#lines",
-    from: "t95 150",
-    to: 't47 -95',
+  { element: "#lines-black",
+    from: "t38 185",
+    to: "t38 155",
     property: 'transform'
   },
-  { element: "#black",
+  { element: "#tri-wheat",
     from: resetT,
-    to: 't50 38 s1.15 .95 r-90',
+    to: "t85 84 s2.4 2.4",
     property: 'transform'
   },
   { element: "#darken",
@@ -50,18 +50,18 @@ export const animation = [
     property: 'opacity'
   },
   { element: "#mask",
-    from: 0.8,
-    to: 0.6,
+    from: 0.5,
+    to: 0.7,
     property: 'opacity'
   },
   { element: "#title-bg",
     from: "t0 0",
-    to: 't0 95',
-    property: "transform",
+    to: "t0 95",
+    property: 'transform'
   },
   { element: "#text",
     from: "#FCFCFC",
-    to: "#000",
+    to: "#232222",
     property: 'fill'
   }
 ]

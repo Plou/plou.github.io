@@ -10,13 +10,18 @@ export default class Tile {
       reset: 300,
       to: 200
     }
-    this.container = Snap(`#tile-${name}`)
-    this.parent = document.querySelector(`#tile-${name}`).parentElement
+    this.container = Snap(`#${name}`)
+    this.parent = document.querySelector(`#${name}`).parentElement
     Snap.load(`/img/tiles/${name}.svg`, (svg) => {
-      this.container.append(svg.select(`#${name}`))
+      this.container.append(svg.select(`#svg-${name}`))
       this.bind()
       // this.animate()
     })
+  }
+
+  toggle () {
+    this.onMouseEnter()
+    this.onClick()
   }
 
   onMouseEnter (callback) {
