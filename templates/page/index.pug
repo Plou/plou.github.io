@@ -1,29 +1,90 @@
 extends ../layout/layout.pug
 
+include ../components/_skill.pug
+include ../components/_work.pug
+
+
 block preload
   <link rel=preload as=image href="/img/mask.png">
 
 
 block content
+
   section
     .content-text
       h1 Hi there!
-      p I'm working with web agencies and design teams to build <strong>solid, perfomant, accessible</strong> websites and living style guides. I also enjoy working with developers and designers teams to improve their workflow and front-end skills.
+      p I'm working with web agencies and design teams to build <strong>solid, perfomant, accessible</strong> websites and living style guides. I&nbsp;also enjoy working with developers and designers teams to improve their workflow and front-end skills.
       p Aside from that you can find me teaching CMS in university or running workshops about web technologies.
 
-  section
+  section#skills
     .content-text
-      h1 What can I do for you?
+      h1 What can I&nbsp;do for you?
 
+    - const skills = ['ui-systems', 'interactive-interfaces', 'wordpress-typo3', 'workshops-courses']
     .skill-list.list-inline
-      li.skill-list-item
-        svg#ui-systems.skill-list-svg(viewBox="0 0 275 275", width="275", height="275", version="1.2", focusable, xmlns="http://www.w3.org/2000/svg", xmlns:xlink="http://www.w3.org/1999/xlink")
+      each id in skills
+        li.skill-list-item
+          +skill(id)
 
-      li.skill-list-item
-        svg#interactive-interfaces.skill-list-svg(viewBox="0 0 275 275", width="275", height="275", version="1.2", focusable, xmlns="http://www.w3.org/2000/svg", xmlns:xlink="http://www.w3.org/1999/xlink")
 
-      li.skill-list-item
-        svg#wordpress-typo3.skill-list-svg(viewBox="0 0 275 275", width="275", height="275", version="1.2", focusable, xmlns="http://www.w3.org/2000/svg", xmlns:xlink="http://www.w3.org/1999/xlink")
+  section#works
 
-      li.skill-list-item
-        svg#workshops-courses.skill-list-svg(viewBox="0 0 275 275", width="275", height="275", version="1.2", focusable, xmlns="http://www.w3.org/2000/svg", xmlns:xlink="http://www.w3.org/1999/xlink")
+    .content-text
+      h1 Projects I&nbsp;helped build
+      p As a web develloper I&nbsp;had the opportunity to work on a variety of websites, here are some projects I&nbsp;enjoyed work on.
+
+    .work-list
+        li.work-list-item
+          a(href="#fld-lille").work-banner
+            h2.work-banner-title
+              = "Faculté Libre de Droit"
+            p.work-banner-subtitle
+              = "A School portal to showcases available courses"
+
+          div.work-content.content-text#fld-lille
+            .work-content-inner
+              h3.work-content-title
+                a.work-content-link(href="http://")
+                  = "www.fld-lille.fr"
+
+
+        li.work-list-item
+          a(href="#grandstravauxroubaix").work-banner
+            h2.work-banner-title
+              = "30 ans de grands travaux à Roubaix"
+            p.work-banner-subtitle
+              = "A game about urban exploration and history"
+
+          div.work-content.content-text#grandstravauxroubaix
+            .work-content-inner
+              h3.work-content-title
+                a.work-content-link(href="http://grandstravauxroubaix.bn-r.fr")
+                  = "grandstravauxroubaix.bn-r.fr"
+
+
+        li.work-list-item
+          a(href="#bonduelle").work-banner
+            h2.work-banner-title
+              = "Bonduelle"
+            p.work-banner-subtitle
+              = "A corporate website about the company and sustainable development"
+
+          div.work-content.content-text#bonduelle
+            .work-content-inner
+              h3.work-content-title
+                a.work-content-link(href="http://bonduelle.com")
+                  = "bonduelle.com"
+
+
+        li.work-list-item
+          a(href="#lesdunesdeflandres").work-banner
+            h2.work-banner-title
+              = "Les dunes de Flandre"
+            p.work-banner-subtitle
+              = "An interactive experience to promote tourism around the coast of the Channel"
+
+          div.work-content.content-text#lesdunesdeflandres
+            .work-content-inner
+              h3.work-content-title
+                a.work-content-link(href="https://vimeo.com/45384573")
+                  = "Video (offline)"

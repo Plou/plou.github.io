@@ -9,6 +9,8 @@ import {onMouseEnter as iiOnMouseEnter, onClick as iiOnClick} from './components
 import {onMouseEnter as wtOnMouseEnter, onClick as wtOnClick} from './components/tiles/animations-wordpress-typo3.js'
 import {onMouseEnter as cwOnMouseEnter, onClick as cwOnClick} from './components/tiles/animations-workshops-courses.js'
 
+import Collapse from './components/Collapse.js'
+
 const tiles = {
   ui: new Tile('ui-systems', uiOnMouseEnter, uiOnClick),
   ii: new Tile('interactive-interfaces', iiOnMouseEnter, iiOnClick),
@@ -20,4 +22,8 @@ document.querySelectorAll('.header-logo, .footer-logo').forEach((button) => {
  button.addEventListener('click', () => {
     Object.getOwnPropertyNames(tiles).forEach((tile) => tiles[tile].toggle())
   })
+})
+
+document.querySelectorAll('.work-banner').forEach((button) => {
+  new Collapse(button)
 })
