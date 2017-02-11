@@ -20,10 +20,16 @@
           <rect id="Rectangle-4-Copy-2" fill="#262642" x="0" y="29" width="77" height="6"></rect>
       </g>
       <rect id="darken" fill-opacity="0.5" fill="#262626" fill-rule="evenodd" x="0" y="0" width="275" height="275" style="pointer-events:none;"></rect>
-      <rect id="title-bg" fill-opacity="0.6" fill="#135757" x="0" y="180" width="275" height="95"></rect>
-      <text id="title" font-family="Montserrat-Regular, Montserrat" font-size="30" font-weight="normal" fill="#FCFCFC">
-          <tspan x="20" y="218"></tspan>
-          <tspan x="20" y="255">UI Systems</tspan>
+      <rect id="title-bg" fill-opacity="0.6" fill="#262626" x="0" y="180" width="275" height="95"></rect>
+      <rect id="text-bg" fill-opacity="0" fill="#262626" x="0" y="0" width="275" height="275"></rect>
+      <text id="text" width="235" fill="#FCFCFC" >
+          <tspan font-family="Montserrat-Regular, Montserrat, Helvetica, Arial, sans" font-size="30" font-weight="normal" class="title" x="20" y="255">UI Systems</tspan>
+          <tspan font-family="Work Sans, , Helvetica, Arial, sans" font-size="18" font-weight="normal" class="subtitle" x="20" y="300">To tame technical debt</tspan>
+          <tspan font-family="Work Sans, , Helvetica, Arial, sans" font-size="18" font-weight="normal" class="subtitle" x="20" y="325">and scallability, with the</tspan>
+          <tspan font-family="Work Sans, , Helvetica, Arial, sans" font-size="18" font-weight="normal" class="subtitle" x="20" y="350">help of the design team,</tspan>
+          <tspan font-family="Work Sans, , Helvetica, Arial, sans" font-size="18" font-weight="normal" class="subtitle" x="20" y="375">we will build a style guide</tspan>
+          <tspan font-family="Work Sans, , Helvetica, Arial, sans" font-size="18" font-weight="normal" class="subtitle" x="20" y="400">to keep consistent</tspan>
+          <tspan font-family="Work Sans, , Helvetica, Arial, sans" font-size="18" font-weight="normal" class="subtitle" x="20" y="425">interfaces.</tspan>
       </text>
       <image id="mask" fill="none" opacity="0.5" style="pointer-events:none; mix-blend-mode: hard-light; transform: rotate(90deg)" transform-origin="137.5 137.5" transform="" x="0" y="0" width="275" height="275" xlink:href="/img/mask.png"></image>
     </g>

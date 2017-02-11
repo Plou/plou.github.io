@@ -18,10 +18,15 @@
       <rect id="wheat" fill="#D8D8D8" mask="url(#mask-2)" x="155" y="28" width="52" height="52"></rect>
       <polyline id="red" fill="#E34425" mask="url(#mask-2)" points="-6 183 -57 132 45 132"></polyline>
       <polygon id="darken" points="275 0 0 0 0 275 275 275" fill-opacity="0.6" fill="#7F4A15"></polygon>
-      <polygon id="title-bg" fill-opacity="0.6" fill="#7F4A15" points="275 180 0 180 0 275 275 275"></polygon>
-      <text id="title" font-family="Montserrat-Regular, Montserrat" font-size="30" font-weight="normal" fill="#FCFCFC">
-          <tspan x="20" y="218">Courses</tspan>
-          <tspan x="20" y="255">Workshops</tspan>
+      <rect id="title-bg" fill-opacity="0.6" fill="#7F4A15" x="0" y="180" width="275" height="95"></rect>
+      <rect id="text-bg" fill-opacity="0" fill="#7F4A15" x="0" y="0" width="275" height="275"></rect>
+      <text id="text" width="235" fill="#FCFCFC" >
+          <tspan font-family="Montserrat-Regular, Montserrat, Helvetica, Arial, sans" font-size="30" font-weight="normal" class="title" x="20" y="218">Courses</tspan>
+          <tspan font-family="Montserrat-Regular, Montserrat, Helvetica, Arial, sans" font-size="30" font-weight="normal" class="title" x="20" y="255">Workshops</tspan>
+          <tspan font-family="Work Sans, , Helvetica, Arial, sans" font-size="18" font-weight="normal" class="subtitle" x="20" y="300">From student training to</tspan>
+          <tspan font-family="Work Sans, , Helvetica, Arial, sans" font-size="18" font-weight="normal" class="subtitle" x="20" y="325">front-end masterclass,</tspan>
+          <tspan font-family="Work Sans, , Helvetica, Arial, sans" font-size="18" font-weight="normal" class="subtitle" x="20" y="350">let's learn and improve</tspan>
+          <tspan font-family="Work Sans, , Helvetica, Arial, sans" font-size="18" font-weight="normal" class="subtitle" x="20" y="375">together.</tspan>
       </text>
       <image id="mask" fill="none" opacity="0.8" style="pointer-events:none; mix-blend-mode: hard-light; transform: rotate(90deg)"  transform-origin="137.5 137.5" x="0" y="0" width="275" height="275" xlink:href="/img/mask.png"></image>
 

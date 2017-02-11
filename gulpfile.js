@@ -42,6 +42,7 @@ gulp.task('js', () => {
   return browserify('./js/src/main.js')
     .transform(babelify.configure({ presets: [es2015] }))
     .bundle()
+    .pipe(plumber({errorHandler: notify.onError("Error: <%= error.message %>")}))
     .on('error', gutil.log)
     .pipe(source('main.js'))
     .pipe(buffer())

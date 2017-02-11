@@ -1,6 +1,24 @@
 const resetT = ''
 
-export default [
+export const text = [
+  { element: "#text",
+    from: resetT,
+    to: "t0 -170",
+    property: 'transform'
+  },
+  { element: "#text",
+    from: '#232222',
+    to: '#FCFCFC',
+    property: 'fill'
+  },
+  { element: "#text-bg",
+    from: '0',
+    to: '.85',
+    property: 'fill-opacity'
+  },
+]
+
+export const animation = [
   { element: "#orange",
     from: resetT,
     to: "t-90 -25 r90",
@@ -36,7 +54,7 @@ export default [
     to: "t0 95",
     property: "transform",
   },
-  { element: "#title",
+  { element: "#text",
     from: "#FCFCFC",
     to: "#000",
     property: 'fill'
