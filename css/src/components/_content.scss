@@ -1,10 +1,6 @@
 .content {
   background-color: $white;
-  text-align: justify;
 
-  @media #{$media-medium} {
-    text-align: left;
-  }
 
   &-text {
     padding-left: 20px;
