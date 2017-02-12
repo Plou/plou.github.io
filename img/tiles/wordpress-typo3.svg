@@ -33,7 +33,7 @@
           <tspan font-family="Work Sans, , Helvetica, Arial, sans" font-size="18" font-weight="normal" class="subtitle" x="20" y="375">a simple and powerful</tspan>
           <tspan font-family="Work Sans, , Helvetica, Arial, sans" font-size="18" font-weight="normal" class="subtitle" x="20" y="400">administration system.</tspan>
       </text>
-      <image id="mask" fill="none" opacity="0.5" style="pointer-events:none; mix-blend-mode: hard-light;" x="0" y="0" width="275" height="275" xlink:href="/img/mask.png"></image>
+      <image id="mask" fill="none" opacity="0.5" style="pointer-events:none; mix-blend-mode: hard-light;" x="0" y="0" width="275" height="275" xlink:href="/img/mask.jpg"></image>
 
     </g>
   </g>
