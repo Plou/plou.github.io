@@ -1,11 +1,13 @@
 extends ../layout/layout.pug
 
-include ../components/_skill.pug
-include ../components/_work.pug
-
 
 block preload
+  <link rel=preload as=image href="/img/logo.svg">
   <link rel=preload as=image href="/img/mask.jpg">
+  <link rel=preload as=image href="/img/work-bg-white.jpg">
+  <link rel=preload as=image href="/img/work-bg-teal.jpg">
+  <link rel=preload as=image href="/img/work-bg-orange.jpg">
+  <link rel=preload as=image href="/img/work-bg-yellow.jpg">
 
 
 block content
@@ -20,11 +22,15 @@ block content
     .content-text
       h1 What can I&nbsp;do for you?
 
-    - const skills = ['ui-systems', 'interactive-interfaces', 'wordpress-typo3', 'workshops-courses']
     .skill-list.list-inline
-      each id in skills
         li.skill-list-item
-          +skill(id)
+          include /img/tiles/ui-systems.svg
+        li.skill-list-item
+          include /img/tiles/interactive-interfaces.svg
+        li.skill-list-item
+          include /img/tiles/wordpress-typo3.svg
+        li.skill-list-item
+          include /img/tiles/workshops-courses.svg
 
 
   section#works

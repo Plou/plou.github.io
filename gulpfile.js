@@ -22,7 +22,9 @@ const browserSync = require('browser-sync').create()
 gulp.task('pug', function(){
   return gulp.src('templates/page/*.pug')
     .pipe(plumber({errorHandler: notify.onError("Error: <%= error.message %>")}))
-    .pipe(pug())
+    .pipe(pug({
+      basedir: '.'
+    }))
     .pipe(gulp.dest('.'))
     .pipe(browserSync.stream())
 })

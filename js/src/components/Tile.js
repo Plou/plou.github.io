@@ -12,11 +12,7 @@ export default class Tile {
     }
     this.container = Snap(`#${name}`)
     this.parent = document.querySelector(`#${name}`).parentElement
-    Snap.load(`/img/tiles/${name}.svg`, (svg) => {
-      this.container.append(svg.select(`#svg-${name}`))
-      this.bind()
-      // this.animate()
-    })
+    this.bind()
   }
 
   toggle () {
@@ -65,7 +61,6 @@ export default class Tile {
   bind () {
     this.container.click(() => this.onClick())
 
-  // !Causes bug on ios
     this.parent.addEventListener('mouseenter', () => {
       if (!this.isActive) {
         this.onMouseEnter()
