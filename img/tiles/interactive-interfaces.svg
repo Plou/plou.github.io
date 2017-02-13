@@ -19,7 +19,7 @@
                 <rect id="Rectangle-4-Copy" x="0" y="15" width="77" height="6"></rect>
                 <rect id="Rectangle-4-Copy-2" x="0" y="29" width="77" height="6"></rect>
             </g>
-            <rect id="darken" fill-opacity="0.6" fill="#135757" x="0" y="0" width="275" height="275"></rect>
+            <rect id="darken" fill-opacity="0.5" fill="#135757" x="0" y="0" width="275" height="275" style="pointer-events:none;"></rect>
             <rect id="title-bg" fill-opacity="0.6" fill="#135757" x="0" y="180" width="275" height="95"></rect>
             <rect id="text-bg" fill-opacity="0" fill="#135757" x="0" y="0" width="275" height="275"></rect>
             <text id="text" width="235" fill="#FCFCFC" >
@@ -30,7 +30,7 @@
                 <tspan font-family="Work Sans, , Helvetica, Arial, sans" font-size="18" font-weight="normal" class="subtitle" x="20" y="350">meaningful animations</tspan>
                 <tspan font-family="Work Sans, , Helvetica, Arial, sans" font-size="18" font-weight="normal" class="subtitle" x="20" y="375">and interactions</tspan>
             </text>
-            <image id="background" opacity="0.6" style="mix-blend-mode: hard-light; transform: rotate(180deg)" x="0" y="0" width="275" height="275" transform-origin="137.5 137.5" xlink:href="/img/mask.jpg"></image>
+            <image id="background" fill="none" opacity="0.6" style="pointer-events:none; mix-blend-mode: hard-light; transform: rotate(180deg)" x="0" y="0" width="275" height="275" transform-origin="137.5 137.5" xlink:href="/img/mask.jpg"></image>
         </g>
     </g>
 </svg>

@@ -65,6 +65,7 @@ gulp.task('serve', function() {
     gulp.watch("css/src/**/*.scss", ['scss'])
     gulp.watch("js/src/**/*.js", ['js'])
     gulp.watch("templates/**/*.pug", ['pug'])
+    gulp.watch("img/**/*.svg", ['pug'])
     gulp.watch('img/**/*').on('change', browserSync.reload)
 })
 
