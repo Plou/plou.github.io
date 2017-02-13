@@ -49,16 +49,20 @@
 
     li:nth-child(1) > & {
       background-image: url('../img/work-bg-white.jpg');
+      background-color: $cream;
     }
 
     li:nth-child(2) > & {
       background-image: url('../img/work-bg-teal.jpg');
+      background-color: $teal;
     }
     li:nth-child(3) > & {
       background-image: url('../img/work-bg-orange.jpg');
+      background-color: $orange;
     }
     li:nth-child(4) > & {
       background-image: url('../img/work-bg-yellow.jpg');
+      background-color: $yellow;
     }
 
 
