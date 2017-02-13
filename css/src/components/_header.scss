@@ -41,14 +41,14 @@
 
   &-subtitle {
     margin: 15px 0;
-    font-size: 1.6em;
-    font-family: $font-heading;
+    font-size: 1.7em;
+    font-weight: $fw-semibold;
 
     @media #{$media-medium} {
-      font-size: 1.4em;
+      font-size: 1.6em;
     }
     @media #{$media-large} {
-      font-size: 1.6em;
+      font-size: 1.7em;
     }
 
   }
