@@ -21,7 +21,6 @@ const browserSync = require('browser-sync').create()
 
 gulp.task('pug', function(){
   return gulp.src('templates/page/*.pug')
-    .pipe(plumber({errorHandler: notify.onError("Error: <%= error.message %>")}))
     .pipe(pug({
       basedir: '.'
     }))
@@ -31,21 +30,20 @@ gulp.task('pug', function(){
 
 gulp.task('scss', function(){
   return gulp.src('css/src/**/*.scss')
-    .pipe(plumber({errorHandler: notify.onError("Error: <%= error.message %>")}))
     .pipe(sourcemaps.init())
     .pipe(sass())
     .pipe(minifyCSS())
     .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest('css'))
-    .pipe(browserSync.stream())
+    .pipe(browserSync.stream({match: '**/*.css'}))
 })
 
 gulp.task('js', () => {
   return browserify('./js/src/main.js')
     .transform(babelify.configure({ presets: [es2015] }))
     .bundle()
-    .pipe(plumber({errorHandler: notify.onError("Error: <%= error.message %>")}))
     .on('error', gutil.log)
+    .pipe(plumber({errorHandler: notify.onError("Error: <%= error.message %>")}))
     .pipe(source('main.js'))
     .pipe(buffer())
     .pipe(sourcemaps.init({loadMaps: true}))
