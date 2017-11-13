@@ -7,13 +7,15 @@ const gutil = require('gulp-util')
 const source = require('vinyl-source-stream')
 const buffer = require('vinyl-buffer')
 const pug = require('gulp-pug')
+const htmlmin = require('gulp-htmlmin');
+const compress = require('compression')
 const sass = require('gulp-sass')
 const minifyCSS = require('gulp-csso')
 const sourcemaps = require('gulp-sourcemaps')
 const babel = require('gulp-babel')
 const browserify = require('browserify')
 const babelify = require('babelify')
-const es2015 = require('babel-preset-es2015')
+const env = require('babel-preset-env')
 const uglify = require('gulp-uglify')
 const browserSync = require('browser-sync').create()
 
@@ -23,6 +25,12 @@ gulp.task('pug', function(){
   return gulp.src('templates/page/*.pug')
     .pipe(pug({
       basedir: '.'
+    }))
+    .pipe(htmlmin({
+      removeComments: true,
+      collapseWhitespace: true,
+      sortAttributes: true,
+      sortClassName: true
     }))
     .pipe(gulp.dest('.'))
     .pipe(browserSync.stream())
@@ -40,7 +48,7 @@ gulp.task('scss', function(){
 
 gulp.task('js', () => {
   return browserify('./js/src/main.js')
-    .transform(babelify.configure({ presets: [es2015] }))
+    .transform(babelify.configure({ presets: [env] }))
     .bundle()
     .on('error', gutil.log)
     .pipe(plumber({errorHandler: notify.onError("Error: <%= error.message %>")}))
@@ -57,6 +65,7 @@ gulp.task('serve', function() {
 
     browserSync.init({
         server: "./",
+        middleware: [compress()],
         open: false
     })
 
