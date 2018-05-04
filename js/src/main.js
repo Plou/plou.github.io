@@ -1,7 +1,20 @@
 'use strict'
 
+// serviceWorker
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/sw.js?bam', {scope: '/'})
+  .then(function(reg) {
+    // registration worked
+    console.log('Registration succeeded. Scope is ' + reg.scope);
+  }).catch(function(error) {
+    // registration failed
+    console.log('Registration failed with ' + error);
+  });
+}
+
+
 // Website wide scripts
-// @Author Dummy Team
+// @Author Plou
 
 import Tile from './components/Tile.js'
 import {onMouseEnter as uiOnMouseEnter, onClick as uiOnClick} from './components/tiles/animations-ui-systems.js'
