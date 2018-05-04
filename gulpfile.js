@@ -60,20 +60,6 @@ gulp.task('js', () => {
     .pipe(gulp.dest('js'))
     .pipe(browserSync.stream())
 })
-gulp.task('sw', () => {
-  return browserify('./js/src/sw.js')
-    .transform(babelify.configure({ presets: [env] }))
-    .bundle()
-    .on('error', gutil.log)
-    .pipe(plumber({errorHandler: notify.onError("Error: <%= error.message %>")}))
-    .pipe(source('sw.js'))
-    .pipe(buffer())
-    .pipe(sourcemaps.init({loadMaps: true}))
-    .pipe(uglify())
-    .pipe(sourcemaps.write('.'))
-    .pipe(gulp.dest('.'))
-    .pipe(browserSync.stream())
-})
 
 gulp.task('serve', function() {
 
@@ -85,7 +71,6 @@ gulp.task('serve', function() {
 
     gulp.watch("css/src/**/*.scss", ['scss'])
     gulp.watch("js/src/**/*.js", ['js'])
-    gulp.watch("js/src/sw.js", ['sw'])
     gulp.watch("./*.js", ['js'])
     gulp.watch("templates/**/*.pug", ['pug'])
     gulp.watch("img/**/*.svg", ['pug'])
@@ -93,4 +78,4 @@ gulp.task('serve', function() {
 })
 
 gulp.task('default', [ 'serve', 'build' ])
-gulp.task('build', [ 'pug', 'scss', 'js', 'sw' ])
+gulp.task('build', [ 'pug', 'scss', 'js' ])
