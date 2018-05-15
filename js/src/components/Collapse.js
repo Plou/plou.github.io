@@ -13,10 +13,6 @@ export default class Collapse {
     this.isOpen ? this.close() : this.open();
   }
 
-  open () {
-    this.isOpen = 1
-    this.content.classList.remove('is-close')
-  }
   open() {
     this.content.style.height = this.content.firstChild.clientHeight + 'px'
 
@@ -32,7 +28,6 @@ export default class Collapse {
     this.content.classList.add('is-close')
     return this
   }
-
 
   bind () {
     this.button.addEventListener('click', (e) => {

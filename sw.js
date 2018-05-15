@@ -1,8 +1,9 @@
 self.addEventListener('install', function(event) {
   event.waitUntil(
-    caches.open('v0.3').then(function(cache) {
+    caches.open('v1.0').then(function(cache) {
       return cache.addAll([
         '/',
+        '/manifest.json',
         '/index.html',
         '/css/main.css',
         '/js/main.js',

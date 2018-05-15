@@ -1,5 +1,5 @@
 doctype html
-html
+html(lang="en")
   head
     title Plou - Front-end developer
     meta(name="description" content="Hi there! I'm Clément Plou, a Front-end developer & teacher, based in Lille, France. I'm available to work anywhere.")
@@ -8,9 +8,17 @@ html
 
     meta(http-equiv="X-UA-Compatible", content="IE=edge,chrome=1")
     meta(name="viewport", content=", width=device-width, initial-scale=1")
+    link(rel="manifest", href="/manifest.json")
 
     link(rel="shortcut icon", href="/img/favicon.ico")
     link(rel="apple-touch-icon", href="/img/apple-touch-icon.png")
+    link(rel="apple-touch-startup-image", href="/img/apple-touch-icon.png")
+    meta(name="apple-mobile-web-app-status-bar-style", content="black-translucent")
+    meta(name="apple-mobile-web-app-capable", content="yes")
+
+    meta(name="theme-color", content="#f7682c")
+
+
     link(rel="stylesheet", href="/css/main.css")
 
     meta(property="og:title", content="Plou - Front-end developer")
@@ -32,14 +40,14 @@ html
       block content
 
     footer.footer
-      img.footer-logo(src="/img/logo.svg")
+      img.footer-logo(src="/img/logo.svg",alt="")
       ul.footer-contact
         li.footer-contact-item.link-medium
-          a(href="https://medium.com/@Plou", target="_blank") medium.com/@Plou
+          a(href="https://medium.com/@Plou", target="_blank", rel="noopener") medium.com/@Plou
         li.footer-contact-item.link-twitter
-          a(href="https://twitter.com/plou_io", target="_blank") twitter.com/plou_io
+          a(href="https://twitter.com/plou_io", target="_blank", rel="noopener") twitter.com/plou_io
         li.footer-contact-item.link-github
-          a(href="https://github.com/Plou", target="_blank") github.com/Plou
+          a(href="https://github.com/Plou", target="_blank", rel="noopener") github.com/Plou
         li.footer-contact-item.link-mail
           a(href="mailto:clement@plou.io") clement@plou.io
 
