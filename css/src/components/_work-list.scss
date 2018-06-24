@@ -9,6 +9,39 @@
     padding: 0;
     list-style: none;
     -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    a:focus {
+      outline: 5px solid $white;
+    }
+
+    &:nth-child(1) {
+      a:focus { outline-color: $cream; }
+      .work-banner {
+        background-image: url('../img/work-bg-white.jpg');
+        background-color: $cream;
+      }
+    }
+    &:nth-child(2) {
+      a:focus { outline-color: $teal; }
+      .work-banner {
+        background-image: url('../img/work-bg-teal.jpg');
+        background-color: $teal;
+      }
+    }
+    &:nth-child(3) {
+      a:focus { outline-color: $orange; }
+      .work-banner {
+        background-image: url('../img/work-bg-orange.jpg');
+        background-color: $orange;
+      }
+    }
+    &:nth-child(4) {
+      a:focus { outline-color: $yellow; }
+      .work-banner {
+        background-image: url('../img/work-bg-yellow.jpg');
+        background-color: $yellow;
+      }
+    }
   }
 }
 
@@ -42,30 +75,12 @@
 
     &:hover, &:focus {
       text-decoration: none;
+      z-index: 2;
 
       &::before {
-        opacity: .3;
+        opacity: .4;
       }
     }
-
-    li:nth-child(1) > & {
-      background-image: url('../img/work-bg-white.jpg');
-      background-color: $cream;
-    }
-
-    li:nth-child(2) > & {
-      background-image: url('../img/work-bg-teal.jpg');
-      background-color: $teal;
-    }
-    li:nth-child(3) > & {
-      background-image: url('../img/work-bg-orange.jpg');
-      background-color: $orange;
-    }
-    li:nth-child(4) > & {
-      background-image: url('../img/work-bg-yellow.jpg');
-      background-color: $yellow;
-    }
-
 
     &-title {
       margin: 0 0 20px 0;
@@ -86,9 +101,6 @@
     overflow: hidden;
     transition: height 200ms ease-in-out;
 
-    .work-banner:focus +   & {
-      height: auto !important;
-    }
     &:focus-within {
       height: auto !important;
     }

@@ -1,18 +1,16 @@
 const gulp = require('gulp')
-const batch = require('gulp-batch')
-const watch = require('gulp-watch')
 const plumber = require('gulp-plumber')
 const notify = require('gulp-notify')
 const gutil = require('gulp-util')
 const source = require('vinyl-source-stream')
 const buffer = require('vinyl-buffer')
 const pug = require('gulp-pug')
+const inlinesource = require('gulp-inline-source')
 const htmlmin = require('gulp-htmlmin');
 const compress = require('compression')
 const sass = require('gulp-sass')
 const minifyCSS = require('gulp-csso')
 const sourcemaps = require('gulp-sourcemaps')
-const babel = require('gulp-babel')
 const browserify = require('browserify')
 const babelify = require('babelify')
 const env = require('babel-preset-env')
@@ -32,6 +30,7 @@ gulp.task('pug', function(){
       sortAttributes: true,
       sortClassName: true
     }))
+    .pipe(inlinesource({rootpath: './'}))
     .pipe(gulp.dest('.'))
     .pipe(browserSync.stream())
 })
@@ -78,4 +77,4 @@ gulp.task('serve', function() {
 })
 
 gulp.task('default', [ 'serve', 'build' ])
-gulp.task('build', [ 'pug', 'scss', 'js' ])
+gulp.task('build', [ 'scss', 'js', 'pug' ])

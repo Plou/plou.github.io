@@ -59,14 +59,34 @@ export default class Tile {
   }
 
   bind () {
-    this.container.click(() => this.onClick())
 
-    this.parent.addEventListener('mouseenter', () => {
+    this.container.node.addEventListener('keypress', (e) => {
+      if(e.which == 13){
+        this.onClick()
+      }
+    })
+
+    this.container.node.addEventListener('click', () => this.onClick())
+
+    this.container.node.addEventListener('focus', () => {
       if (!this.isActive) {
         this.onMouseEnter()
       }
     })
-    this.parent.addEventListener('mouseleave', () => {
+
+    this.container.node.addEventListener('blur', () => {
+      if (!this.isActive) {
+        setTimeout(() =>{
+          this.onMouseLeave()
+        }, 400)
+      }
+    })
+    this.container.node.addEventListener('mouseenter', () => {
+      if (!this.isActive) {
+        this.onMouseEnter()
+      }
+    })
+    this.container.node.addEventListener('mouseleave', () => {
       if (!this.isActive) {
         setTimeout(() =>{
           this.onMouseLeave()
