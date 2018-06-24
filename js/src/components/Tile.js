@@ -11,7 +11,6 @@ export default class Tile {
       to: 200
     }
     this.container = Snap(`#${name}`)
-    this.parent = document.querySelector(`#${name}`).parentElement
     this.bind()
   }
 
