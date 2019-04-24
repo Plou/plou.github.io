@@ -29,7 +29,7 @@
         <tspan font-family="Work Sans, , Helvetica, Arial, sans" font-size="18" font-weight="normal" class="subtitle" x="20" y="350">let's learn and improve</tspan>
         <tspan font-family="Work Sans, , Helvetica, Arial, sans" font-size="18" font-weight="normal" class="subtitle" x="20" y="375">together.</tspan>
       </text>
-      <image id="wc_mask" fill="none" opacity="0.8" style="pointer-events:none; mix-blend-mode: hard-light; transform: rotate(90deg)"  transform-origin="137.5 137.5" x="0" y="0" width="275" height="275" xlink:href="/img/mask.jpg"></image>
+      <image id="wc_mask" fill="none" opacity="0.8" style="pointer-events:none; mix-blend-mode: hard-light; transform: rotate(90deg); transform-origin: center;"  transform-origin="137.5 137.5" x="0" y="0" width="275" height="275" xlink:href="/img/mask.jpg"></image>
     </g>
   </g>
 </svg>
