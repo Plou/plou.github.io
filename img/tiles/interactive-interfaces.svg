@@ -1,40 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
 <svg class="skill-list-svg" id="interactive-interfaces" width="275" height="275" viewBox="0 0 275 275" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-labelledby="ii_title ii_desc">
-    <title id="ii_title">Interactive interfaces</title>
-    <desc id="ii_desc">Working with the designers, we will craft meaningful animations and interactions.</desc>
-
+    <title id="ii_title">
+        Interactive interfaces
+    </title>
+    <desc id="ii_desc">
+        Working with the designers, we will craft meaningful animations and interactions.
+    </desc>
     <g id="svg-interactive-interfaces" pointer-events="none" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" mask="url(#ii_mask)">
-        <mask id="ii_mask" fill="white">
-            <rect role="presentation" id="ii_path-1" x="0" y="0" width="275" height="275"></rect>
+        <mask id="ii_mask" fill="#fff">
+            <path role="presentation" id="ii_path-1" d="M0 0h275v275H0z"/>
         </mask>
-        
         <g id="ii_illustration" role="img" aria-labelledby="ii_illustration_desc">
-            <desc id="ii_illustration_desc">Rectangles moving into the shape of a dialog</desc>
-            <polygon id="ii_filter" fill="#29BCBD" points="275 0 0 0 0 275 275 275"></polygon>
-            <polyline id="ii_black" fill="#262642" points="0 0 77 0 0 73"></polyline>
-            <polygon id="ii_orange" fill="#F6902B" points="77 0 289 0 289 121.5 77 121.5"></polygon>
-            <polygon id="ii_red" fill="#E34425" points="51 61 224 61 224 149 51 149"></polygon>
-            <rect id="ii_wheat" fill="#D8D8D8" x="0" y="101" width="80" height="80"></rect>
+            <desc id="ii_illustration_desc">
+                Rectangles moving into the shape of a dialog
+            </desc>
+            <path id="ii_filter" fill="#29BCBD" d="M275 0H0v275h275z"/>
+            <path id="ii_black" fill="#262642" d="M0 0h77L0 73"/>
+            <path id="ii_orange" fill="#F6902B" d="M77 0h212v121.5H77z"/>
+            <path id="ii_red" fill="#E34425" d="M51 61h173v88H51z"/>
+            <path id="ii_wheat" fill="#D8D8D8" d="M0 101h80v80H0z"/>
             <g id="ii_lines" fill="#262642">
-                <rect id="ii_line-1" x="13" y="20" width="77" height="6"></rect>
-                <rect id="ii_line-2" x="13" y="35" width="77" height="6"></rect>
-                <rect id="ii_line-3" x="13" y="50" width="77" height="6"></rect>
+                <path id="ii_line-1" d="M13 20h77v6H13z"/>
+                <path id="ii_line-2" d="M13 35h77v6H13z"/>
+                <path id="ii_line-3" d="M13 50h77v6H13z"/>
             </g>
-            <rect id="ii_darken" fill-opacity="0.5" fill="#135757" x="0" y="0" width="275" height="275" style="pointer-events:none;"></rect>
-            <rect id="ii_title-bg" fill-opacity="0.6" fill="#135757" x="0" y="180" width="275" height="95"></rect>
-            <rect id="ii_text-bg" fill-opacity="0" fill="#135757" x="0" y="0" width="275" height="275"></rect>
+            <path id="ii_darken" fill-opacity=".5" fill="#135757" pointer-events="none" d="M0 0h275v275H0z"/>
+            <path id="ii_title-bg" fill-opacity=".6" fill="#135757" d="M0 180h275v95H0z"/>
+            <path id="ii_text-bg" fill-opacity="0" fill="#135757" d="M0 0h275v275H0z"/>
         </g>
-
-        <text id="ii_text" width="235" fill="#FCFCFC" >
-            <tspan font-family="Montserrat-Regular, Montserrat, Helvetica, Arial, sans" font-size="30" font-weight="normal" class="title" x="20" y="218">Interactive</tspan>
-            <tspan font-family="Montserrat-Regular, Montserrat, Helvetica, Arial, sans" font-size="30" font-weight="normal" class="title" x="20" y="255">Interfaces</tspan>
-            <tspan font-family="Work Sans, , Helvetica, Arial, sans" font-size="18" font-weight="normal" class="subtitle" x="20" y="300">Working with the</tspan>
-            <tspan font-family="Work Sans, , Helvetica, Arial, sans" font-size="18" font-weight="normal" class="subtitle" x="20" y="325">designers, we will craft</tspan>
-            <tspan font-family="Work Sans, , Helvetica, Arial, sans" font-size="18" font-weight="normal" class="subtitle" x="20" y="350">meaningful animations</tspan>
-            <tspan font-family="Work Sans, , Helvetica, Arial, sans" font-size="18" font-weight="normal" class="subtitle" x="20" y="375">and interactions</tspan>
+        <text id="ii_text" width="235" fill="#FCFCFC">
+            <tspan font-family="Montserrat-Regular, Montserrat, Helvetica, Arial, sans" font-size="30" font-weight="normal" class="title" x="20" y="218">Interactive</tspan> <tspan font-family="Montserrat-Regular, Montserrat, Helvetica, Arial, sans" font-size="30" font-weight="normal" class="title" x="20" y="255">Interfaces</tspan> <tspan font-family="Work Sans, Helvetica, Arial, sans" font-size="18" font-weight="normal" class="subtitle" x="20" y="300">Working with the</tspan> <tspan font-family="Work Sans, Helvetica, Arial, sans" font-size="18" font-weight="normal" class="subtitle" x="20" y="325">designers, we will craft</tspan> <tspan font-family="Work Sans, Helvetica, Arial, sans" font-size="18" font-weight="normal" class="subtitle" x="20" y="350">meaningful animations</tspan> <tspan font-family="Work Sans, Helvetica, Arial, sans" font-size="18" font-weight="normal" class="subtitle" x="20" y="375">and interactions</tspan>
         </text>
-
-        <image role="presentation" id="ii_background" fill="none" opacity="0.6" style="pointer-events:none; mix-blend-mode: hard-light; transform: rotate(180deg); transform-origin: center;" x="0" y="0" width="275" height="275" transform-origin="137.5 137.5" xlink:href="/img/mask.jpg"></image>
+        <image role="presentation" id="ii_background" fill="none" opacity=".6" style="mix-blend-mode:hard-light;transform-origin:center" x="0" y="0" width="275" height="275" transform-origin="137.5 137.5" xlink:href="/img/mask.jpg" pointer-events="none" transform="rotate(180)"/>
     </g>
 </svg>
