@@ -16,8 +16,8 @@
 
   &-logo {
     margin-bottom: 45px;
-    font-size: 6em;
-    font-weight: $fw-xlight;
+    font-size: 5.7em;
+    font-weight: $fw-regular;
 
     @media #{$media-medium} {
       margin-bottom: 52px;
@@ -42,7 +42,7 @@
   &-subtitle {
     margin: 15px 0;
     font-size: 1.7em;
-    font-weight: $fw-semibold;
+    font-weight: $fw-bold;
 
     @media #{$media-medium} {
       font-size: 1.6em;

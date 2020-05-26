@@ -6,16 +6,13 @@
 ////
 
 /// Font family
-$work-sans: 'Work Sans', Helvetica, Arial, sans-serif;
-$montserrat: 'Montserrat', Helvetica, Arial, sans-serif;
+$work-sans: 'Work Sans', sans-serif;
+$montserrat: 'Montserrat', sans-serif;
 
 $font-heading: $montserrat;
 $font-text: $work-sans;
 
 /// Fonts weight
 /// They must reflect avalaible weights
-$fw-xlight: 100;
-$fw-light: 200;
 $fw-regular: 300;
-$fw-semibold: 400;
-$fw-bold: 500;
+$fw-bold: 400;

@@ -27,6 +27,15 @@ html(lang="en")
     meta(property="og:image", content="http://plou.io/img/logo.png")
     meta(property="og:image:alt", content="plou.io")
 
+    link(rel="preconnect", href="https://fonts.gstatic.com", crossorigin)
+    link( rel="preload", href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Work+Sans:wght@300;400&display=swap", as="style")
+
+    link(media="print", onload="this.media='all'", href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Work+Sans:wght@300;400&display=swap", rel="stylesheet")
+
+    noscript
+      link(rel="stylesheet", href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Work+Sans:wght@300;400&display=swap")
+
+
     block preload
 
   body
@@ -52,6 +61,3 @@ html(lang="en")
 
 
     script(src='/js/main.js')
-
-    style
-      = "@import url('https://fonts.googleapis.com/css?family=Work+Sans:300,400|Montserrat:100,200,300,400');"

@@ -402,7 +402,7 @@ hr {
   background-color: #232222; }
 
 input, select, textarea {
-  font-family: "Work Sans", Helvetica, Arial, sans-serif; }
+  font-family: "Work Sans", sans-serif; }
 
 fieldset {
   margin: 0;
@@ -418,7 +418,7 @@ input, select, textarea, label {
 
 body {
   background: #232222;
-  font-family: "Work Sans", Helvetica, Arial, sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-weight: 300;
   color: #232222; }
 
@@ -475,7 +475,7 @@ h6 {
   font-size: 1.8em; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: 1.2;
   font-weight: 400; }
 
@@ -674,8 +674,8 @@ button {
     color: #fcfdfc; }
   .header-logo {
     margin-bottom: 45px;
-    font-size: 6em;
-    font-weight: 100; }
+    font-size: 5.7em;
+    font-weight: 300; }
     @media (min-width: 780px) {
       .header-logo {
         margin-bottom: 52px; } }
@@ -720,7 +720,7 @@ button {
     list-style: none;
     text-align: left; }
     .footer-contact-item {
-      font-family: "Montserrat", Helvetica, Arial, sans-serif;
+      font-family: "Montserrat", sans-serif;
       font-size: 1.6em; }
       @media (min-width: 780px) {
         .footer-contact-item {
@@ -837,7 +837,7 @@ button {
   .work-banner-title {
     margin: 0 0 20px 0;
     font-size: 5rem;
-    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 300;
     text-align: center; }
   .work-banner-subtitle {
