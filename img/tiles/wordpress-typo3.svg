@@ -1,16 +1,16 @@
-<svg tabindex="0" class="skill-list-svg" id="wordpress-typo3" width="275" height="275" viewBox="0 0 275 275" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-labelledby="ii_title ii_desc">
-    <title id="ii_title">
+<svg tabindex="0" class="skill-list-svg" id="wordpress-typo3" width="275" height="275" viewBox="0 0 275 275" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-labelledby="wt_title wt_desc">
+    <title id="wt_title">
         Wordpress, Typo3
     </title>
-    <desc id="ii_desc">
+    <desc id="wt_desc">
         While building complex layouts, together with the editors, we will set up a simple and powerful administration system.
     </desc>
     <g id="svg-wordpress-typo3" pointer-events="none" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" mask="url(#wt_mask-2)">
         <mask id="wt_mask-2" fill="#fff">
             <path role="presentation" id="wt_path-1" d="M0 0h275v275H0z"/>
         </mask>
-        <g id="ii_illustration" role="img" aria-labelledby="ii_illustration_desc">
-            <desc id="ii_illustration_desc">
+        <g id="wt_illustration" role="img" aria-labelledby="wt_illustration_desc">
+            <desc id="wt_illustration_desc">
                 Rectangles moving into the shape of a blog layout
             </desc>
             <path id="wt_background" fill="#E34425" d="M275 0H0v275h275z"/>
