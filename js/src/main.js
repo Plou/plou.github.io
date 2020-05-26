@@ -29,11 +29,11 @@ const tiles = {
   cw: new Tile('workshops-courses', cwOnMouseEnter, cwOnClick)
 }
 
-document.querySelectorAll('.header-logo, .footer-logo').forEach((button) => {
- button.addEventListener('click', () => {
-    Object.getOwnPropertyNames(tiles).forEach((tile) => tiles[tile].toggle())
-  })
-})
+// document.querySelectorAll('.header-logo, .footer-logo').forEach((button) => {
+//  button.addEventListener('click', () => {
+//     Object.getOwnPropertyNames(tiles).forEach((tile) => tiles[tile].toggle())
+//   })
+// })
 
 document.querySelectorAll('.work-banner').forEach((button) => {
   new Collapse(button)

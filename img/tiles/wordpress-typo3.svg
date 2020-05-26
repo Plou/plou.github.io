@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg tabindex="0" class="skill-list-svg" id="wordpress-typo3" width="275" height="275" viewBox="0 0 275 275" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <desc>Wordpress, Typo3</desc>
-  <defs>
-  </defs>
-  <g id="svg-wordpress-typo3" pointer-events="none" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+<svg tabindex="0" class="skill-list-svg" id="wordpress-typo3" width="275" height="275" viewBox="0 0 275 275" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-labelledby="ii_title ii_desc">
+  <title id="ii_title">Wordpress, Typo3</title>
+  <desc id="ii_desc">While building complex layouts, together with the editors, we will set up a simple and powerful administration system.</desc>
+
+  <g id="svg-wordpress-typo3" pointer-events="none" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" mask="url(#wt_mask-2)">
     <mask id="wt_mask-2" fill="white">
-      <rect id="wt_path-1" x="0" y="0" width="275" height="275"></rect>
+      <rect role="presentation" id="wt_path-1" x="0" y="0" width="275" height="275"></rect>
     </mask>
-    <g id="wt_Group" mask="url(#wt_mask-2)">
+
+    <g id="ii_illustration" role="img" aria-labelledby="ii_illustration_desc">
+      <desc id="ii_illustration_desc">Rectangles moving into the shape of a blog layout</desc>
       <polygon id="wt_background" fill="#E34425" points="275 0 0 0 0 275 275 275"></polygon>
       <polygon id="wt_orange" fill="#F6902B" points="245 -60 245 172 216 172 216 -60"></polygon>
       <rect id="wt_wheat" fill="#D8D8D8" x="22" y="29" width="148" height="79"></rect>
@@ -24,17 +26,18 @@
       <rect id="wt_darken" fill-opacity="0.8" fill="#972D18" fill-rule="evenodd" x="0" y="0" width="275" height="275" style="pointer-events:none;"></rect>
       <rect id="wt_title-bg" fill-opacity="1" fill="#972D18" x="0" y="180" width="275" height="95"></rect>
       <rect id="wt_text-bg" fill-opacity="0" fill="#972D18" x="0" y="0" width="275" height="275"></rect>
-      <text id="wt_text" width="235" fill="#FCFCFC" >
-          <tspan font-family="Montserrat-Regular, Montserrat, Helvetica, Arial, sans" font-size="30" font-weight="normal" class="title" x="20" y="218">Wordpress</tspan>
-          <tspan font-family="Montserrat-Regular, Montserrat, Helvetica, Arial, sans" font-size="30" font-weight="normal" class="title" x="20" y="255">Typo3</tspan>
-          <tspan font-family="Work Sans, , Helvetica, Arial, sans" font-size="18" font-weight="normal" class="subtitle" x="20" y="300">While building complex</tspan>
-          <tspan font-family="Work Sans, , Helvetica, Arial, sans" font-size="18" font-weight="normal" class="subtitle" x="20" y="325">layouts, together with the</tspan>
-          <tspan font-family="Work Sans, , Helvetica, Arial, sans" font-size="18" font-weight="normal" class="subtitle" x="20" y="350">editors, we will set up</tspan>
-          <tspan font-family="Work Sans, , Helvetica, Arial, sans" font-size="18" font-weight="normal" class="subtitle" x="20" y="375">a simple and powerful</tspan>
-          <tspan font-family="Work Sans, , Helvetica, Arial, sans" font-size="18" font-weight="normal" class="subtitle" x="20" y="400">administration system.</tspan>
-      </text>
-      <image id="wt_mask" fill="none" opacity="0.5" style="pointer-events:none; mix-blend-mode: hard-light; transform-origin: center;" x="0" y="0" width="275" height="275" xlink:href="/img/mask.jpg"></image>
-
     </g>
+
+    <text id="wt_text" width="235" fill="#FCFCFC" >
+        <tspan font-family="Montserrat-Regular, Montserrat, Helvetica, Arial, sans" font-size="30" font-weight="normal" class="title" x="20" y="218">Wordpress</tspan>
+        <tspan font-family="Montserrat-Regular, Montserrat, Helvetica, Arial, sans" font-size="30" font-weight="normal" class="title" x="20" y="255">Typo3</tspan>
+        <tspan font-family="Work Sans, , Helvetica, Arial, sans" font-size="18" font-weight="normal" class="subtitle" x="20" y="300">While building complex</tspan>
+        <tspan font-family="Work Sans, , Helvetica, Arial, sans" font-size="18" font-weight="normal" class="subtitle" x="20" y="325">layouts, together with the</tspan>
+        <tspan font-family="Work Sans, , Helvetica, Arial, sans" font-size="18" font-weight="normal" class="subtitle" x="20" y="350">editors, we will set up</tspan>
+        <tspan font-family="Work Sans, , Helvetica, Arial, sans" font-size="18" font-weight="normal" class="subtitle" x="20" y="375">a simple and powerful</tspan>
+        <tspan font-family="Work Sans, , Helvetica, Arial, sans" font-size="18" font-weight="normal" class="subtitle" x="20" y="400">administration system.</tspan>
+    </text>
+
+    <image role="presentation" id="wt_mask" fill="none" opacity="0.5" style="pointer-events:none; mix-blend-mode: hard-light; transform-origin: center;" x="0" y="0" width="275" height="275" xlink:href="/img/mask.jpg"></image>
   </g>
 </svg>

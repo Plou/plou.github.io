@@ -58,7 +58,8 @@ export default class Tile {
   }
 
   bind () {
-
+    this.container.node.setAttribute('role', 'button')
+    this.container.node.setAttribute('tabindex', '0')
     this.container.node.addEventListener('keypress', (e) => {
       if(e.which == 13){
         this.onClick()

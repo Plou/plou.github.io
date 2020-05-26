@@ -1,6 +1,6 @@
 self.addEventListener('install', function(event) {
   event.waitUntil(
-    caches.open('v1.5').then(function(cache) {
+    caches.open('v1.6').then(function(cache) {
       return cache.addAll([
         '/',
         '/manifest.json',
@@ -13,7 +13,7 @@ self.addEventListener('install', function(event) {
         '/img/work-bg-teal.jpg',
         '/img/work-bg-orange.jpg',
         '/img/work-bg-yellow.jpg',
-        'https://fonts.googleapis.com/css?family=Work+Sans:300,400|Montserrat:100,200,300,400',
+        'https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Work+Sans:wght@300;400&display=swap',
       ]);
     })
   );

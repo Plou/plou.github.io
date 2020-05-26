@@ -49,7 +49,7 @@ export const onMouseEnter = [
     to: 0,
     property: 'opacity'
   },
-  { element: "#us_mask",
+  { element: "#us_background",
     from: 0.5,
     to: 0.7,
     property: 'opacity'
