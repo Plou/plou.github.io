@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "snapsvg": "^0.5.1"
+    "snapsvg": "^0.4.0"
   },
   "scripts": {
     "start": "gulp",
