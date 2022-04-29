@@ -12,12 +12,12 @@
 
     @media screen and (min-width: 550px){
       display: inline-block;
-      width: 1 / 2 *100%;
-      padding-top: 1 / 2 *100%;
+      width: .5 *100%;
+      padding-top: .5 *100%;
     }
     @media #{$media-large} {
-      width: 1 / 4 *100%;
-      padding-top: 1 / 4 *100%;
+      width: .25 *100%;
+      padding-top: .25 *100%;
     }
 
   }

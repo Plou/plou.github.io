@@ -8,7 +8,7 @@ const pug = require('gulp-pug')
 const inlinesource = require('gulp-inline-source')
 const htmlmin = require('gulp-htmlmin');
 const compress = require('compression')
-const sass = require('gulp-sass')
+const sass = require('gulp-sass')(require('sass'))
 const postcss = require('gulp-postcss')
 const autoprefixer = require('autoprefixer')
 const minifyCSS = require('gulp-csso')
@@ -71,7 +71,7 @@ gulp.task('minifyCss', gulp.series('scss', function(){
       title: "CSS preprocessing"
     })}))
     .pipe(sourcemaps.init())
-    .pipe(postcss([autoprefixer({browsers: ['last 3 version']})]))
+    .pipe(postcss([autoprefixer()]))
     .pipe(minifyCSS())
     .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest('css'))
