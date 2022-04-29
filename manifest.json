@@ -1,11 +1,18 @@
 {
   "short_name": "Plou",
-  "name": "Plou.io",
+  "name": "Plou - Front-end developer",
   "icons": [
     {
       "src": "/img/logo_bw.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "512x512",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/img/logo_bw_192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any"
     }
   ],
   "start_url": "/",
