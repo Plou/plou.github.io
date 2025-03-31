@@ -3,42 +3,37 @@
 /// Order do matter
 ///
 ////
-
-/// Settings
-@import 'settings/colors';
-@import 'settings/dimensions';
-@import 'settings/fonts';
-
+/// 
+/// 
 // Generic
-@import 'generic/normalize';
-@import 'generic/reset';
+@use 'generic/normalize';
+@use 'generic/reset';
 
 // Tools (helper, mixins and function)
-// @import 'tools/';
-
+// @use 'tools/';
 
 // Base
-@import 'elements/body';
-@import 'elements/blocks';
-@import 'elements/headings';
-@import 'elements/forms';
-@import 'elements/links';
+@use 'elements/body';
+@use 'elements/blocks';
+@use 'elements/headings';
+@use 'elements/forms' as formsEl;
+@use 'elements/links';
 
 // Objects
-@import 'objects/container';
-@import 'objects/list-inline';
-@import 'objects/link-block';
-@import 'objects/forms';
-@import 'objects/alignements';
-@import 'objects/highlights';
+@use 'objects/container';
+@use 'objects/list-inline';
+@use 'objects/link-block';
+@use 'objects/forms' as formsOb;
+@use 'objects/alignements';
+@use 'objects/highlights';
 
 // Components
-@import 'components/layout';
-@import 'components/header';
-@import 'components/footer';
-@import 'components/content';
-@import 'components/skill-list';
-@import 'components/work-list';
+@use 'components/layout';
+@use 'components/header';
+@use 'components/footer';
+@use 'components/content';
+@use 'components/skill-list';
+@use 'components/work-list';
 
 // Trumps
-@import 'trumps/print';
+@use 'trumps/print';

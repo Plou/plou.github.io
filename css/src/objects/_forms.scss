@@ -1,9 +1,4 @@
-////
-/// Form elements basic styling
-///
-/// @group Objects
-///
-////
+@use '../settings/colors' as *;
 
 .form-error { outline-color: $color-error; }
 .form-valid { outline-color: $color-valid; }
