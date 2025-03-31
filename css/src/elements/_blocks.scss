@@ -21,11 +21,9 @@ section {
 p, li, td, th, textarea, caption, pre, blockquote, label, input, select, textarea {
   font-size: 2.25em;
   line-height: 1.5;
-  text-align: justify;
 
   @media #{$media-medium} {
     font-size: 2.4em;
-    text-align: left;
   }
 }
 td p, td .bodytext { margin: 0; }

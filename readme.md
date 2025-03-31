@@ -1,4 +1,4 @@
-# plou.io
+# plou.dev
 Front-end developer & Teacher
 
 Living in Lille, France
@@ -23,7 +23,7 @@ While building complex layouts, together with the editors, we will set up a simp
 From student training to front-end masterclass, let's learn and improve together.
 
 ## Some projects I have been working on
-As a developer I had the opportunity to work on a variety of websites, here are some projects I have enjoyed.
+As a developer I had the opportunity to work on a variety of websites, here are some projects I have enjoyed doing.
 
 ### Faculté Libre de Droit
 A School portal to showcase available courses

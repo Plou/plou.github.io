@@ -23,9 +23,9 @@ html(lang="en")
     meta(property="og:title", content="Plou - Front-end developer")
     meta(property="og:description", content="Hi there! I'm Clément Plou, a Front-end developer & teacher, based in Lille, France. I'm available to work anywhere.")
     meta(property="og:type", content="website")
-    meta(property="og:url", content="http://plou.io")
-    meta(property="og:image", content="http://plou.io/img/logo.png")
-    meta(property="og:image:alt", content="plou.io")
+    meta(property="og:url", content="https://plou.dev")
+    meta(property="og:image", content="https://plou.dev/img/logo.png")
+    meta(property="og:image:alt", content="plou.dev")
 
     link(rel="preconnect", href="https://fonts.gstatic.com", crossorigin)
     link( rel="preload", href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Work+Sans:wght@300;400&display=swap", as="style")
@@ -40,24 +40,18 @@ html(lang="en")
 
   body
     header.header
-      h1.header-logo plou<span class="highlight">.io</span>
-      p.header-title Front-end developer<br>Teacher
+      h1.header-logo plou<span class="highlight">.dev</span>
+      p.header-title Front-end developer<br>& Teacher
       p.header-subtitle Living in Lille, France<br>I'm available to work anywhere.
 
     .content
       block content
 
     footer.footer
-      img.footer-logo(src="/img/logo.svg",alt="",width="84",height="84")
+      img.footer-logo(src="/img/logo.svg",alt="",width="64",height="64")
       ul.footer-contact
-        li.footer-contact-item.link-medium
-          a(href="https://medium.com/@Plou", target="_blank", rel="noopener") medium.com/@Plou
-        li.footer-contact-item.link-twitter
-          a(href="https://twitter.com/plou_io", target="_blank", rel="noopener") twitter.com/plou_io
         li.footer-contact-item.link-github
           a(href="https://github.com/Plou", target="_blank", rel="noopener") github.com/Plou
         li.footer-contact-item.link-mail
-          a(href="mailto:clement@plou.io") clement@plou.io
-
-
+          a(href="mailto:clement@plou.dev") clement@plou.dev
     script(src='/js/main.js')
