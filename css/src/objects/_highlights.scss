@@ -1,8 +1,6 @@
-@use '../settings/colors' as *;
-@use '../settings/fonts' as *;
 
 
 .important { font-size: 2.4em; }
 .introduction { font-size: 1.7em; }
 
-.highlight { color: $color-main; }
+.highlight { color: var(--color-main); }

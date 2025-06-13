@@ -1,9 +1,7 @@
-@use '../settings/colors' as *;
 @use '../settings/dimensions' as *;
-@use '../settings/fonts' as *;
 
 .content {
-  padding-top: 80px;
+  padding-top: 40px;
 }
 
 @media #{$media-medium} {
@@ -19,7 +17,6 @@
     max-width: 1200px;
     min-height: 100vh;
     margin-left: 220px;
-    padding-top: 45px;
   }
 
   .footer {

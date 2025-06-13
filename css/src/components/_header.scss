@@ -1,11 +1,9 @@
-@use '../settings/colors' as *;
 @use '../settings/dimensions' as *;
-@use '../settings/fonts' as *;
 
 .header {
   padding: 30px;
-  background-color: $black;
-  color: $white;
+  background-color: var(--black);
+  color: var(--white);
 
   @media #{$media-medium} {
     padding-left: 15px;
@@ -16,12 +14,12 @@
     padding-right: 30px;
   }
 
-  a { color: $white; }
+  a { color: var(--white); }
 
   &-logo {
     margin-bottom: 45px;
     font-size: 5.7em;
-    font-weight: $fw-bold;
+    font-weight: var(--fw-bold);
 
     @media #{$media-medium} {
       margin-bottom: 52px;
@@ -29,7 +27,7 @@
 
     .highlight {
       font-size: 0.5em;
-      font-weight: $fw-regular;
+      font-weight: var(--fw-regular);
     }
 
     & + p {
@@ -51,7 +49,7 @@
   &-subtitle {
     margin: 15px 0;
     font-size: 1.7em;
-    font-weight: $fw-bold;
+    font-weight: var(--fw-bold);
 
     @media #{$media-medium} {
       font-size: 1.6em;

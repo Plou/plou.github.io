@@ -1,11 +1,12 @@
-/// Font family
-$work-sans: 'Work Sans', sans-serif;
-$montserrat: 'Montserrat', sans-serif;
+:root {
+    --ff-text: 'Inter', sans-serif;
+    --ff-heading: var(--ff-text);
 
-$font-heading: $montserrat;
-$font-text: $work-sans;
+    --fw-light: 200;
+    --fw-regular: 300;
+    --fw-bold: 500;
 
-/// Fonts weight
-/// They must reflect avalaible weights
-$fw-regular: 300;
-$fw-bold: 400;
+    --fz-text: 2.2rem;
+    --fz-title: 4.5rem;
+    --fz-smaller: 1.85rem;
+}

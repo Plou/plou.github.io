@@ -1,12 +1,10 @@
-@use '../settings/colors' as *;
 @use '../settings/dimensions' as *;
-@use '../settings/fonts' as *;
 
 .footer {
   padding: 30px;
   text-align: center;
 
-  a { color: $white; }
+  a { color: var(--white); }
 
   &-logo {
     display: block;
@@ -25,7 +23,7 @@
     list-style: none;
 
     &-item {
-      font-family: $font-heading;
+      font-family: var(--ff-heading);
       font-size: 1.6em;
       @media #{$media-medium} {
         font-size: 1.4em;

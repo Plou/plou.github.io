@@ -1,6 +1,4 @@
-@use '../settings/colors' as *;
 @use '../settings/dimensions' as *;
-@use '../settings/fonts' as *;
 
 ////
 /// Forms
@@ -12,14 +10,14 @@
 $type-list: text tel email url search date time datetime month week number;
 @each $type in $type-list {
   [type="#{$type}"] {
-    border: 1px solid $black; border-radius: 3px; background-color: $white;
+    border: 1px solid var(--black); border-radius: 3px; background-color: var(--white);
 
     &:focus { outline: none; }
   }
 }
 select,
 textarea {
-  border: 1px solid $black; border-radius: 3px; background-color: $white;
+  border: 1px solid var(--black); border-radius: 3px; background-color: var(--white);
 
   &:focus { outline: none; }
 }

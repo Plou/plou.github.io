@@ -18,3 +18,9 @@ $media-large: '(min-width: #{$vw-large})';
 $media-huge: '(min-width: #{$vw-huge})';
 
 $media-squeezed: '(max-height: #{$vw-medium})';
+
+
+:root {
+    --gap: 15px;
+    --gap-small: calc(var(--gap) / 2);
+}

@@ -1,6 +1,4 @@
-@use '../settings/colors' as *;
 @use '../settings/dimensions' as *;
-@use '../settings/fonts' as *;
 
 ////
 /// Reset styles
@@ -33,11 +31,11 @@ a img { border: none; }
 img { max-width: 100%; height: auto;}
 
 // Separator
-hr { border: none; height: 1px; background-color: $black; }
+hr { border: none; height: 1px; background-color: var(--black); }
 
 
 // Forms
-input, select, textarea { font-family: $font-text; }
+input, select, textarea { font-family: var(--ff-text); }
 fieldset { margin: 0; border: none; padding: 0; }
 select { width: auto; cursor: pointer; }
 

@@ -1,31 +1,15 @@
-/// Grey scale
-$white: #fcfdfc;
-
-$grey: #cecece;
-$grey-dark: #232222;
-
-$black: #0d0d0d;
-$black-true: #000;
-
-
-// Transparent grey scale
-$black-50: rgba($black, .5);
-
-/// Utility colors
-$red: #d9534f;
-$green: #5cb85c;
-
-/// Branding colors
-$brown: #361f17;
-$cream: #fbf3de;
-$teal: #8ac2af;
-$yellow: #febb36;
-$orange: #f7682c;
-
-$color-main: $orange;
-
-/// Functionnal colors
-$color-text: $black;
-$color-link: $color-main;
-$color-error: $red;
-$color-valid: $green;
+// Grey scale
+:root {
+    --white: #fcfdfc;
+    --black: #0d0d0d;
+    
+    // Branding colors
+    --brown: #361f17;
+    --cream: #fbf3de;
+    --teal: #8ac2af;
+    --yellow: #febb36;
+    --orange: #f7682c;
+    
+    --color-main: var(--orange);
+    --color-link: var(--color-main);
+}

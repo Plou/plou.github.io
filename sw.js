@@ -1,6 +1,8 @@
+const version = '4'
+
 self.addEventListener('install', function(event) {
   event.waitUntil(
-    caches.open('v3.0').then(function(cache) {
+    caches.open(version).then(function(cache) {
       return cache.addAll([
         '/',
         '/manifest.json',
@@ -13,7 +15,7 @@ self.addEventListener('install', function(event) {
         '/img/work-bg-teal.jpg',
         '/img/work-bg-orange.jpg',
         '/img/work-bg-yellow.jpg',
-        'https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Work+Sans:wght@300;400&display=swap',
+        'https://rsms.me/inter/inter.css',
       ]);
     })
   );
@@ -28,4 +30,18 @@ self.addEventListener('fetch', function(event) {
       return fetch(event.request);
     })
   )
+});
+
+self.addEventListener('activate', function(event) {
+  event.waitUntil(
+    caches.keys().then(function(cacheNames) {
+      return Promise.all(
+        cacheNames.filter(function(cacheName) {
+          return cacheName != version;
+        }).map(function(cacheName) {
+          return caches.delete(cacheName);
+        })
+      );
+    })
+  );
 });

@@ -1,4 +1,3 @@
-@use '../settings/colors' as *;
 
 ////
 /// Links & buttons
@@ -9,11 +8,11 @@
 
 button,
 a {
-  text-decoration: none; color: $color-link;
+  text-decoration: none; color: var(--color-link);
 
   &:hover { text-decoration: underline; }
 }
 button {
   background-color: transparent;
-  color: $color-link;
+  color: var(--color-link);
 }

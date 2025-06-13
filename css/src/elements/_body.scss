@@ -1,6 +1,4 @@
-@use '../settings/colors' as *;
 @use '../settings/dimensions' as *;
-@use '../settings/fonts' as *;
 
 ////
 /// Layout of the page
@@ -10,4 +8,8 @@
 ////
 
 /// Text default font and color
-body { background: $black; font-family: $font-text; font-weight: $fw-regular; color: $black; }
+body { background: var(--black);
+    font-family: var(--ff-text);
+    font-weight: var(--fw-regular);
+    color: var(--black);
+}

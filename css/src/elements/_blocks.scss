@@ -1,6 +1,4 @@
-@use '../settings/colors' as *;
 @use '../settings/dimensions' as *;
-@use '../settings/fonts' as *;
 
 ////
 /// Headings
@@ -23,15 +21,12 @@ section {
 
 /// Contents
 p, li, td, th, textarea, caption, pre, blockquote, label, input, select, textarea {
-  font-size: 2.25em;
+  font-size: var(--fz-text);
   line-height: 1.5;
-
-  @media #{$media-medium} {
-    font-size: 2.4em;
-  }
 }
+
 td p, td .bodytext { margin: 0; }
-strong, optgroup { font-weight: $fw-bold; }
+strong, optgroup { font-weight: var(--fw-bold); }
 
 p {
   margin: 25px 0;

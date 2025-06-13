@@ -1,10 +1,11 @@
-////
-/// Import all files
-/// Order do matter
-///
-////
-/// 
-/// 
+//
+// Import all files
+// Order do matter
+
+// Settings
+@use 'settings/fonts';
+@use 'settings/colors';
+
 // Generic
 @use 'generic/normalize';
 @use 'generic/reset';
@@ -34,6 +35,7 @@
 @use 'components/content';
 @use 'components/skill-list';
 @use 'components/work-list';
+@use 'components/resume';
 
 // Trumps
 @use 'trumps/print';
