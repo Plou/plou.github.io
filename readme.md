@@ -1,11 +1,11 @@
 # plou.dev
-Front-end developer & Teacher
+Web developer & Teacher
 
 Living in Lille, France
 I'm available to work anywhere.
 
 ## Hi there!
-I'm working with web agencies and design teams to build solid, performant, accessible websites and living style guides. I also enjoy working with developers and designers teams to improve their workflow and front-end skills.
+I'm working with web agencies and design teams to build solid, performant, accessible websites and style guides. I also enjoy working with developers and designers teams to improve their workflow and front-end skills.
 
 Aside from that you can find me teaching CMS in university or running workshops about web technologies.
 
